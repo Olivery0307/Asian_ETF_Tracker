@@ -1,0 +1,163 @@
+{
+    "settings": {
+        "start_date": "2025-01-01",
+        "end_date": "2026-12-31",
+        "data_root_dir": "data_tw"
+    },
+    "benchmark": {
+        "code": "0050",
+        "name": "Yuanta Taiwan Top 50 (TAIEX proxy)",
+        "market": "tw_index"
+    },
+    "industries": {
+        "technology_innovations": [
+            {
+                "code": "0052",
+                "name": "Fubon Taiwan Technology",
+                "currency": "TWD"
+            },
+            {
+                "code": "00929",
+                "name": "Fuh Hwa Taiwan Technology Dividend Highli",
+                "currency": "TWD"
+            },
+            {
+                "code": "00770",
+                "name": "Cathay S&P North American Technology Sec",
+                "currency": "TWD"
+            }
+        ],
+        "semiconductor": [
+            {
+                "code": "00830",
+                "name": "Cathay PHLX Semiconductor",
+                "currency": "TWD"
+            },
+            {
+                "code": "00927",
+                "name": "Capital TIP Taiwan Semiconductor Dividend",
+                "currency": "TWD"
+            },
+            {
+                "code": "00891",
+                "name": "CTBC Taiwan ESG Leading Semiconductor",
+                "currency": "TWD"
+            },
+            {
+                "code": "00892",
+                "name": "Fubon Taiwan Core Semi",
+                "currency": "TWD"
+            },
+            {
+                "code": "00735",
+                "name": "Cathay Korea/taiwan IT Premier",
+                "currency": "TWD"
+            }
+        ],
+        "real_estate": [
+            {
+                "code": "00712",
+                "name": "Fuh Hwa FTSE Mortgage REITs",
+                "currency": "TWD"
+            },
+            {
+                "code": "00908",
+                "name": "Fubon Global Dividend REITs and Infrastruct",
+                "currency": "TWD"
+            },
+            {
+                "code": "00714",
+                "name": "Capital Dow Jones US Real Estate",
+                "currency": "TWD"
+            }
+        ],
+        "internet_communications": [
+            {
+                "code": "00881",
+                "name": "Cathay Taiwan 5G Plus",
+                "currency": "TWD"
+            },
+            {
+                "code": "00909",
+                "name": "Cathay Global Digital Payment Services",
+                "currency": "TWD"
+            },
+            {
+                "code": "00662",
+                "name": "Fubon NASDAQ 100",
+                "currency": "TWD"
+            },
+            {
+                "code": "00757",
+                "name": "UPAMC NYSE FANG+",
+                "currency": "TWD"
+            },
+            {
+                "code": "00876",
+                "name": "Yuanta Global 5G & NexGen Telecommunicat",
+                "currency": "TWD"
+            },
+            {
+                "code": "00861",
+                "name": "Yuanta Global NextGen Communications",
+                "currency": "TWD"
+            }
+        ],
+        "esg_clean_energy": [
+            {
+                "code": "00888",
+                "name": "SinoPac Taiwan Target Exposure ESG",
+                "currency": "TWD"
+            },
+            {
+                "code": "00896",
+                "name": "CTBC TIP Customized Taiwan Green Energy",
+                "currency": "TWD"
+            },
+            {
+                "code": "00893",
+                "name": "Cathay Global Autonomous and Electric Vehi",
+                "currency": "TWD"
+            },
+            {
+                "code": "00850",
+                "name": "Yuanta FTSE4Good TIP Taiwan ESG",
+                "currency": "TWD"
+            },
+            {
+                "code": "00899",
+                "name": "Franklin Templeton SinoAm Global Clean En",
+                "currency": "TWD"
+            }
+        ],
+        "consumer_e_commerce": [
+            {
+                "code": "00916",
+                "name": "Cathay Global Top 50 Brands",
+                "currency": "TWD"
+            },
+            {
+                "code": "020000",
+                "name": "Fubon Big Apple Total Return Index",
+                "currency": "TWD"
+            }
+        ],
+        "cloud_computing_robotics_ai": [
+            {
+                "code": "00762",
+                "name": "Yuanta STOXX Global Artificial Intelligence",
+                "currency": "TWD"
+            },
+            {
+                "code": "00737",
+                "name": "Cathay Nasdaq A.I. & Robotics",
+                "currency": "TWD"
+            },
+            {
+                "code": "00851",
+                "name": "Taishin Global AI",
+                "currency": "TWD"
+            }
+        ]
+    }
+}

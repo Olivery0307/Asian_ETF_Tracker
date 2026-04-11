@@ -1,0 +1,518 @@
+[
+  {
+    "symbol": "0050",
+    "name": "Yuanta P shares Taiwan Top 50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00919",
+    "name": "Capital Tip Customized Taiwan Select High D",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00878",
+    "name": "Cathay Sustainability High Dividend",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0056",
+    "name": "Yuanta P shares Taiwan Div Plus",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0052",
+    "name": "Fubon Taiwan Technology",
+    "theme": "technology_innovations",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00940",
+    "name": "Yuanta Taiwan Value High Dividend",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00830",
+    "name": "Cathay PHLX Semiconductor",
+    "theme": "semiconductor",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00929",
+    "name": "Fuh Hwa Taiwan Technology Dividend Highli",
+    "theme": "technology_innovations",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00927",
+    "name": "Capital TIP Taiwan Semiconductor Dividend",
+    "theme": "semiconductor",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00712",
+    "name": "Fuh Hwa FTSE Mortgage REITs",
+    "theme": "real_estate",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00891",
+    "name": "CTBC Taiwan ESG Leading Semiconductor",
+    "theme": "semiconductor",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00881",
+    "name": "Cathay Taiwan 5G Plus",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00918",
+    "name": "UOB Taiwan High Dividend Recovery",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00713",
+    "name": "Yuanta Taiwan High Dividend Low Volatility",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00888",
+    "name": "SinoPac Taiwan Target Exposure ESG",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00738U",
+    "name": "Yuanta DJCI Silver ER Futures",
+    "theme": "gold_commodities",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00900",
+    "name": "Fubon Taiwan high dividend 30",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00939",
+    "name": "UPAMC Taiwan High Dividend Momentum",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00885",
+    "name": "Fubon FTSE Vietnam",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00896",
+    "name": "CTBC TIP Customized Taiwan Green Energy",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00909",
+    "name": "Cathay Global Digital Payment Services",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00635U",
+    "name": "Yuanta SP GSCI Gold ER Futures",
+    "theme": "gold_commodities",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00915",
+    "name": "KGI Taiwan Premium Selection High Dividen",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006208",
+    "name": "Fubon FTSE TWSE Taiwan 50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00733",
+    "name": "Fubon Taiwan Small-Mid Cap Alpha Momentu",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00934",
+    "name": "CTBC TIP Customized Taiwan Growth and Hi",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00643",
+    "name": "Capital SZSE SME Price",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00662",
+    "name": "Fubon NASDAQ 100",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00924",
+    "name": "Fuh Hwa US S&P 500 Growth",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00893",
+    "name": "Cathay Global Autonomous and Electric Vehi",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00892",
+    "name": "Fubon Taiwan Core Semi",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00894",
+    "name": "CTBC TIP Customized Investor Movement Ari",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00757",
+    "name": "UPAMC NYSE FANG+",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00735",
+    "name": "Cathay Korea/taiwan IT Premier",
+    "theme": "technology_innovations",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00646",
+    "name": "Yuanta S&P 500",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00916",
+    "name": "Cathay Global Top 50 Brands",
+    "theme": "consumer_e_commerce",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00926",
+    "name": "KGI Global Industry Elite 55",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00895",
+    "name": "Fubon MSCI ACWI IMI Select Future Mobility",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00752",
+    "name": "CTBC China 50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00850",
+    "name": "Yuanta FTSE4Good TIP Taiwan ESG",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00701",
+    "name": "Cathay TIP TAIEX+ Low Volatility Select 30",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00770",
+    "name": "Cathay S&P North American Technology Sec",
+    "theme": "technology_innovations",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006201",
+    "name": "Yuanta/P-shares Taiwan GreTai 50",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00731",
+    "name": "Fuh Hwa FTSE Taiwan High Div Low Vol",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00639",
+    "name": "Fubon SZSE 100",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00717",
+    "name": "Fubon S&P US Preferred Stock",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00730",
+    "name": "Fubon Dow Jones Taiwan High-Quality Divid",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00907",
+    "name": "SinoPac Taiwan Superior Dividend Highlight",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00763U",
+    "name": "Paradigm DowJones Copper ER Futures",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00858",
+    "name": "SinoPac STOXXUSA 500",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00652",
+    "name": "Fubon NIFTY",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00876",
+    "name": "Yuanta Global 5G & NexGen Telecommunicat",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00908",
+    "name": "Fubon Global Dividend REITs and Infrastruct",
+    "theme": "real_estate",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00636",
+    "name": "Cathay FTSE China A50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00690",
+    "name": "Mega Taiwan Blue Chip 30",
+    "theme": "semiconductor",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00700",
+    "name": "Fubon Hang Seng H-Share",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00728",
+    "name": "FSITC Taiwan Industry Elite 30",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00861",
+    "name": "Yuanta Global NextGen Communications",
+    "theme": "internet_communications",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00762",
+    "name": "Yuanta STOXX Global Artificial Intelligence",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00714",
+    "name": "Capital Dow Jones US Real Estate",
+    "theme": "real_estate",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006207",
+    "name": "Fuh Hwa CSI 300 A Shares",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006205",
+    "name": "Fubon SSE180",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00645",
+    "name": "Fubon TOPIX",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00783",
+    "name": "Fubon China CSI 500 Index",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00737",
+    "name": "Cathay Nasdaq A.I. & Robotics",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0055",
+    "name": "Yuanta P shares MSCI Taiwan Fin",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00899",
+    "name": "Franklin Templeton SinoAm Global Clean En",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0061",
+    "name": "W.I.S.E. Yuanta/P-shares CSI 300",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00736",
+    "name": "Cathay FTSE Emerging Market",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00661",
+    "name": "Yuanta Nikkei 225",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00702",
+    "name": "Cathay S&P 500 Low Volatility High Dividend",
+    "theme": "dividend_income",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0051",
+    "name": "Yuanta/P-shares Taiwan Mid-Cap 100",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00660",
+    "name": "Yuanta EURO STOXX 50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00739",
+    "name": "Yuanta MSCI China A",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00657",
+    "name": "Cathay Nikkei 225",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006206",
+    "name": "Yuanta / P-shares SSE50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00703",
+    "name": "Taishin MSCI China",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0057",
+    "name": "Fubon MSCI Taiwan",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "0053",
+    "name": "Yuanta P shares Taiwan Electronics",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00851",
+    "name": "Taishin Global AI",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006203",
+    "name": "Yuanta P shares MSCI Taiwan",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "006204",
+    "name": "SinoPac Taiwan Weighted Tracker",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "020000",
+    "name": "Fubon Big Apple Total Return Index",
+    "theme": "consumer_e_commerce",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00668K",
+    "name": "Cathay Dow Jones Industrial Average",
+    "theme": "other",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00636K",
+    "name": "Cathay FTSE China A50",
+    "theme": "broad_market",
+    "market": "Taiwan"
+  },
+  {
+    "symbol": "00657K",
+    "name": "Cathay Nikkei 225",
+    "theme": "other",
+    "market": "Taiwan"
+  }
+]

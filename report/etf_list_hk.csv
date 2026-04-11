@@ -1,0 +1,75 @@
+market,theme,code,name,currency
+Hong Kong,biotech_healthcare,02820,Global X China Biotech ETF,HKD
+Hong Kong,biotech_healthcare,09820,Global X China Biotech ETF,USD
+Hong Kong,biotech_healthcare,03069,ChinaAMC HS Biotech ETF,HKD
+Hong Kong,biotech_healthcare,03174,CSOP China Healthcare Disruption Index ETF,HKD
+Hong Kong,cloud_computing_robotics_ai,02807,Global X China Robotics and AI ETF,HKD
+Hong Kong,cloud_computing_robotics_ai,09807,Global X China Robotics and AI ETF,USD
+Hong Kong,cloud_computing_robotics_ai,02826,Global X China Cloud Computing ETF,HKD
+Hong Kong,cloud_computing_robotics_ai,09826,Global X China Cloud Computing ETF,USD
+Hong Kong,consumer_e_commerce,02806,Global X China Consumer Brand ETF,HKD
+Hong Kong,consumer_e_commerce,09806,Global X China Consumer Brand ETF,USD
+Hong Kong,consumer_e_commerce,03167,ICBC CSOP S&P New China Sectors ETF,HKD
+Hong Kong,consumer_e_commerce,83167,ICBC CSOP S&P New China Sectors ETF,RMB
+Hong Kong,consumer_e_commerce,09167,ICBC CSOP S&P New China Sectors ETF,USD
+Hong Kong,consumer_e_commerce,03182,W.I.S.E-Nasdaq Overseas China New Econ Co Top 50 Idx Tracker,HKD
+Hong Kong,consumer_e_commerce,03189,E Fund (HK) CSI Liquor Index ETF,HKD
+Hong Kong,consumer_e_commerce,83189,E Fund (HK) CSI Liquor Index ETF,RMB
+Hong Kong,esg_clean_energy,02809,Global X China Clean Energy ETF,HKD
+Hong Kong,esg_clean_energy,09809,Global X China Clean Energy ETF,USD
+Hong Kong,esg_clean_energy,03029,Global X Hang Seng ESG ETF,HKD
+Hong Kong,esg_clean_energy,03038,Hang Seng Stock Connect China A Low Carbon Index ETF,HKD
+Hong Kong,esg_clean_energy,83038,Hang Seng Stock Connect China A Low Carbon Index ETF,RMB
+Hong Kong,esg_clean_energy,03039,E Fund (HK) HSI ESG Enhanced Index ETF,HKD
+Hong Kong,esg_clean_energy,03059,Global X Bloomberg MSCI Asia ex Japan Green Bond ETF,HKD
+Hong Kong,esg_clean_energy,83059,Global X Bloomberg MSCI Asia ex Japan Green Bond ETF,RMB
+Hong Kong,esg_clean_energy,03108,Harvest CSI 300 ESG Leaders Index ETF,HKD
+Hong Kong,esg_clean_energy,83108,Harvest CSI 300 ESG Leaders Index ETF,RMB
+Hong Kong,esg_clean_energy,03129,BOCHK Greater Bay Area Climate Transition ETF,HKD
+Hong Kong,esg_clean_energy,83129,BOCHK Greater Bay Area Climate Transition ETF,RMB
+Hong Kong,esg_clean_energy,03134,CSOP Huatai-PineBridge CSI Photovoltaic Industry ETF,HKD
+Hong Kong,esg_clean_energy,03136,HSI ESG Enhanced Select Index ETF,HKD
+Hong Kong,esg_clean_energy,03403,ChinaAMC HSI ESG ETF,HKD
+Hong Kong,esg_clean_energy,83403,ChinaAMC HSI ESG ETF,RMB
+Hong Kong,esg_clean_energy,09403,ChinaAMC HSI ESG ETF,USD
+Hong Kong,internet_communications,02812,Samsung CSI China Dragon Internet ETF,HKD
+Hong Kong,internet_communications,09812,Samsung CSI China Dragon Internet ETF,USD
+Hong Kong,internet_communications,03072,Nikko AM Global Internet ETF,HKD
+Hong Kong,internet_communications,09072,Nikko AM Global Internet ETF,USD
+Hong Kong,real_estates,03187,Samsung S&P High Dividend APAC ex NZ REITs ETF,HKD
+Hong Kong,real_estates,09187,Samsung S&P High Dividend APAC ex NZ REITs ETF,USD
+Hong Kong,semiconductor,03076,Fubon ICE FactSet Taiwan Core Semiconductor Index ETF,HKD
+Hong Kong,semiconductor,03119,Global X Asia Semiconductor ETF,HKD
+Hong Kong,semiconductor,03132,Samsung Bloomberg Global Semiconductor ETF,HKD
+Hong Kong,semiconductor,03191,Global X China Semiconductor ETF,HKD
+Hong Kong,semiconductor,09191,Global X China Semiconductor ETF,USD
+Hong Kong,technology_innovations,02814,Samsung NYSE FANG+ ETF,HKD
+Hong Kong,technology_innovations,09814,Samsung NYSE FANG+ ETF,USD
+Hong Kong,technology_innovations,02832,Bosera STAR 50 Index ETF,HKD
+Hong Kong,technology_innovations,82832,Bosera STAR 50 Index ETF,RMB
+Hong Kong,technology_innovations,02837,Global X Hang Seng TECH ETF,HKD
+Hong Kong,technology_innovations,03032,Hang Seng TECH Index ETF,HKD
+Hong Kong,technology_innovations,03033,CSOP Hang Seng TECH Index ETF,HKD
+Hong Kong,technology_innovations,03056,Pando Innovation ETF,HKD
+Hong Kong,technology_innovations,03067,iShares Hang Seng TECH ETF,HKD
+Hong Kong,technology_innovations,09067,iShares Hang Seng TECH ETF,USD
+Hong Kong,technology_innovations,03088,ChinaAMC Hang Seng TECH Index ETF,HKD
+Hong Kong,technology_innovations,09088,ChinaAMC Hang Seng TECH Index ETF,USD
+Hong Kong,technology_innovations,03109,CSOP STAR 50 Index ETF,HKD
+Hong Kong,technology_innovations,03112,Pando Blockchain ETF,HKD
+Hong Kong,technology_innovations,03151,Premia China STAR50 ETF,HKD
+Hong Kong,technology_innovations,83151,Premia China STAR50 ETF,RMB
+Hong Kong,technology_innovations,09151,Premia China STAR50 ETF,USD
+Hong Kong,technology_innovations,03171,Samsung Blockchain Technologies ETF,HKD
+Hong Kong,technology_innovations,03172,Samsung Asia Pacific ex NZ Metaverse Theme ETF,HKD
+Hong Kong,technology_innovations,03173,Premia CSI Caixin China New Economy ETF,HKD
+Hong Kong,technology_innovations,09173,Premia CSI Caixin China New Economy ETF,USD
+Hong Kong,technology_innovations,03181,Premia Asia Innovative Technology ETF,HKD
+Hong Kong,technology_innovations,09181,Premia Asia Innovative Technology ETF,USD
+Hong Kong,technology_innovations,03185,Global X FinTech ETF,HKD
+Hong Kong,transportation,02845,Global X China Electric Vehicle and Battery ETF,HKD
+Hong Kong,transportation,09845,Global X China Electric Vehicle and Battery ETF,USD
+Hong Kong,transportation,03139,Global X EV and Humanoid Robot Active ETF,HKD
+Hong Kong,virtual_assets,03066,CSOP Bitcoin Futures ETF,HKD
+Hong Kong,virtual_assets,03068,CSOP Ether Futures ETF,HKD
+Hong Kong,virtual_assets,03135,Samsung Bitcoin Futures Active ETF,HKD

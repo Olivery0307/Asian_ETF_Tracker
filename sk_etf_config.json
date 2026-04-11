@@ -1,0 +1,394 @@
+{
+    "settings": {
+        "start_date": "2025-01-01",
+        "end_date": "2026-12-31",
+        "data_root_dir": "data_sk"
+    },
+    "benchmark": {
+        "code": "069500",
+        "name": "Samsung KODEX 200 (KOSPI 200)",
+        "market": "sk_index"
+    },
+    "industries": {
+        "biotech_healthcare": [
+            {
+                "code": "228790",
+                "name": "Mirae Asset TIGER Cosmetics",
+                "currency": "KRW"
+            },
+            {
+                "code": "364970",
+                "name": "Mirae Asset TIGER KRX Bio K-New Deal",
+                "currency": "KRW"
+            },
+            {
+                "code": "462900",
+                "name": "Samsungactive KOACT Bio Healthcare Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "0008T0",
+                "name": "Shinhan SOL Cosmetics TOP3 Plus",
+                "currency": "KRW"
+            },
+            {
+                "code": "0000Z0",
+                "name": "KB RISE Bio TOP10 Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "463050",
+                "name": "Timefolio TIMEFOLIO Kbio Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "261070",
+                "name": "Mirae Asset TIGER KOSDAQ150 Biotech",
+                "currency": "KRW"
+            },
+            {
+                "code": "453640",
+                "name": "Samsung KODEX S&P500 Health Care",
+                "currency": "KRW"
+            }
+        ],
+        "cloud_computing_robotics_ai": [
+            {
+                "code": "487230",
+                "name": "SAMSUNG KODEX US AI Electric Power Cor",
+                "currency": "KRW"
+            },
+            {
+                "code": "487240",
+                "name": "SAMSUNG KODEX AI Electric Power Core Fa",
+                "currency": "KRW"
+            },
+            {
+                "code": "483320",
+                "name": "KIM ACE Nvidia Value Chain Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "0048K0",
+                "name": "Samsung KODEX China Humanoid Robot",
+                "currency": "KRW"
+            },
+            {
+                "code": "0053L0",
+                "name": "MiraeAsset TIGER China Humanoid Robot",
+                "currency": "KRW"
+            },
+            {
+                "code": "493810",
+                "name": "MiraeAsset TIGER US AI Big Tech 10 Target",
+                "currency": "KRW"
+            },
+            {
+                "code": "491010",
+                "name": "MIRAE ASSET TIGER GLOBAL AI INFRA ACT",
+                "currency": "KRW"
+            },
+            {
+                "code": "483280",
+                "name": "Samsung KODEX US AI Tech TOP10+15% Pr",
+                "currency": "KRW"
+            }
+        ],
+        "consumer_e_commerce": [
+            {
+                "code": "266410",
+                "name": "Samsung KODEX Consumer Staples",
+                "currency": "KRW"
+            },
+            {
+                "code": "479730",
+                "name": "MiraeAsset TIGRT India Billion Consumer",
+                "currency": "KRW"
+            },
+            {
+                "code": "150460",
+                "name": "MiraeAsset TIGER China Consumer",
+                "currency": "KRW"
+            },
+            {
+                "code": "453630",
+                "name": "Samsung KODEX S&P500 Consumer Staples",
+                "currency": "KRW"
+            },
+            {
+                "code": "237440",
+                "name": "Mirae Asset TIGER Consumer Goods Balance",
+                "currency": "KRW"
+            },
+            {
+                "code": "139280",
+                "name": "MiraeAsset TIGER Consumer Staples",
+                "currency": "KRW"
+            },
+            {
+                "code": "453660",
+                "name": "Samsung KODEX S&P500 Consumer Discreti",
+                "currency": "KRW"
+            },
+            {
+                "code": "494180",
+                "name": "Timefolio TIMEFOLIO Global Consumer Tren",
+                "currency": "KRW"
+            }
+        ],
+        "esg_clean_energy": [
+            {
+                "code": "462330",
+                "name": "Samsung KODEX Secondary Battery Industr",
+                "currency": "KRW"
+            },
+            {
+                "code": "412570",
+                "name": "Miraeasset TIGER KRX Secondary Battery K-",
+                "currency": "KRW"
+            },
+            {
+                "code": "305720",
+                "name": "Samsung KODEX Secondary Battery Industry",
+                "currency": "KRW"
+            },
+            {
+                "code": "462010",
+                "name": "Mirae Asset TIGER Secondary Battery Material",
+                "currency": "KRW"
+            },
+            {
+                "code": "364980",
+                "name": "Mirae Asset TIGER KRX Secondary Battery K",
+                "currency": "KRW"
+            },
+            {
+                "code": "457480",
+                "name": "KIM ACE Tesla Value Chain Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "461950",
+                "name": "Samsung KODEX Secondary Battery Core M",
+                "currency": "KRW"
+            },
+            {
+                "code": "371460",
+                "name": "MiraeAsset TIGER China Electric Vehicle Sol",
+                "currency": "KRW"
+            }
+        ],
+        "internet_communications": [
+            {
+                "code": "379810",
+                "name": "Samsung KODEX US NASDAQ100 Total Return",
+                "currency": "KRW"
+            },
+            {
+                "code": "367760",
+                "name": "KB KBSTAR Fn5G Tech",
+                "currency": "KRW"
+            },
+            {
+                "code": "426030",
+                "name": "Timefolio TIMEFOLIO US NASDAQ100 Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "486290",
+                "name": "TIGER US Nasdaq100+15% Premium Daily Opt",
+                "currency": "KRW"
+            },
+            {
+                "code": "0015B0",
+                "name": "SamsungActive KoAct US Nasdaq Growth A",
+                "currency": "KRW"
+            },
+            {
+                "code": "494300",
+                "name": "Samsung KODEX US NASDAQ100 Daily Cov",
+                "currency": "KRW"
+            },
+            {
+                "code": "133690",
+                "name": "MiraeAsset TIGER Nasdaq 100",
+                "currency": "KRW"
+            },
+            {
+                "code": "367380",
+                "name": "KIM KINDEX NASDAQ100",
+                "currency": "KRW"
+            }
+        ],
+        "military_defense": [
+            {
+                "code": "117700",
+                "name": "Samsung KODEX Constructions",
+                "currency": "KRW"
+            },
+            {
+                "code": "0080G0",
+                "name": "Samsung KODEX KDefense TOP10",
+                "currency": "KRW"
+            },
+            {
+                "code": "139220",
+                "name": "MiraeAsset TIGER 200 Constructions",
+                "currency": "KRW"
+            },
+            {
+                "code": "494670",
+                "name": "MiraeAsset TIGER Shipbuilding TOP10",
+                "currency": "KRW"
+            },
+            {
+                "code": "449450",
+                "name": "Hanwha ARIRANG K-Defense Industry Fn",
+                "currency": "KRW"
+            },
+            {
+                "code": "466920",
+                "name": "Shinhan SOL Shipbuilding TOP3 Plus",
+                "currency": "KRW"
+            },
+            {
+                "code": "463250",
+                "name": "MiraeAsset TIGER K-Defense Industry&Space",
+                "currency": "KRW"
+            },
+            {
+                "code": "421320",
+                "name": "Hanwha ARIRANG iSelect Aerospace&UAM",
+                "currency": "KRW"
+            }
+        ],
+        "real_estate": [
+            {
+                "code": "329200",
+                "name": "Mirae Asset TIGER Real Estate Infra High Div",
+                "currency": "KRW"
+            },
+            {
+                "code": "476800",
+                "name": "KODEX Korea REITs Infra",
+                "currency": "KRW"
+            },
+            {
+                "code": "0086B0",
+                "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+                "currency": "KRW"
+            },
+            {
+                "code": "352540",
+                "name": "Samsung KODEX TSE Japan Real Estate",
+                "currency": "KRW"
+            },
+            {
+                "code": "182480",
+                "name": "MiraeAsset TIGER Synth-MSCI US REIT (H)",
+                "currency": "KRW"
+            },
+            {
+                "code": "429740",
+                "name": "Hanwha ARIRANG Fn K-REITs",
+                "currency": "KRW"
+            },
+            {
+                "code": "0086C0",
+                "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+                "currency": "KRW"
+            },
+            {
+                "code": "352560",
+                "name": "Samsung DJI US Real Estate",
+                "currency": "KRW"
+            }
+        ],
+        "semiconductor": [
+            {
+                "code": "396500",
+                "name": "MiraeAsset TIGER Fn Semiconductor TOP 10",
+                "currency": "KRW"
+            },
+            {
+                "code": "395270",
+                "name": "NH-Amundi HANARO K-Semiconductor",
+                "currency": "KRW"
+            },
+            {
+                "code": "091160",
+                "name": "Samsung KODEX Semicon",
+                "currency": "KRW"
+            },
+            {
+                "code": "395160",
+                "name": "Samsung KODEX Fn System Semiconductor",
+                "currency": "KRW"
+            },
+            {
+                "code": "381180",
+                "name": "MiraeAsset TIGER US PHLX Semiconductor",
+                "currency": "KRW"
+            },
+            {
+                "code": "455850",
+                "name": "Shinhan SOL Semiconductor Materials & Eq",
+                "currency": "KRW"
+            },
+            {
+                "code": "471990",
+                "name": "KODEX AI Semiconductor Core Equipment",
+                "currency": "KRW"
+            }
+        ],
+        "technology_innovations": [
+            {
+                "code": "371160",
+                "name": "MIRAE ASSET TIGER China Hang Seng TECH",
+                "currency": "KRW"
+            },
+            {
+                "code": "465580",
+                "name": "KIM ACE US Big Tech Top7 Plus",
+                "currency": "KRW"
+            },
+            {
+                "code": "381170",
+                "name": "MiraeAsset TIGER US Tech Top10 INDXX",
+                "currency": "KRW"
+            },
+            {
+                "code": "0047A0",
+                "name": "MiraeAsset TIGER China Tech TOP10",
+                "currency": "KRW"
+            },
+            {
+                "code": "471780",
+                "name": "MiraeAsset TIGER Korea Tech Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "491620",
+                "name": "KB RISE US Tech 100 Daily Partial Covered C",
+                "currency": "KRW"
+            },
+            {
+                "code": "444200",
+                "name": "Shinhan SOL KEDI Mega Tech Active",
+                "currency": "KRW"
+            },
+            {
+                "code": "472160",
+                "name": "MiraeAsset TIGER US Tech TOP10 Indxx(H)",
+                "currency": "KRW"
+            }
+        ],
+        "transportation": [
+            {
+                "code": "140710",
+                "name": "Samsung KODEX Transportation",
+                "currency": "KRW"
+            }
+        ]
+    }
+}

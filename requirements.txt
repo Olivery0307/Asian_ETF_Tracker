@@ -1,0 +1,10 @@
+matplotlib
+seaborn
+akshare
+pandas
+numpy
+streamlit
+plotly
+yfinance
+schedule
+pytrends

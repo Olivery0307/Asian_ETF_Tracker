@@ -1,0 +1,235 @@
+"""
+Summary Dashboard page.
+"""
+
+import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
+import streamlit as st
+
+from utils.data import (
+    get_all_etf_returns,
+    get_industry_avg_returns,
+    get_industry_momentum,
+    get_industry_volume_series,
+)
+
+
+def render_summary_page(config, start_date, end_date, market_name):
+    st.header(f"📊 {market_name} Summary Dashboard")
+    st.markdown(f"**Period:** {start_date} to {end_date}")
+
+    # ── Section 0: Momentum Heatmap ───────────────────────────────────────────
+    st.subheader("🔥 Industry Momentum Heatmap")
+    st.caption(
+        "Rolling returns computed from the selected end date backwards. "
+        "Toggle between absolute return and return relative to benchmark."
+    )
+
+    momentum_mode = st.radio(
+        "Display mode",
+        ["Absolute Return", "Relative to Benchmark"],
+        horizontal=True,
+        key="momentum_mode",
+    )
+
+    industry_df, bench_series, rel_df = get_industry_momentum(config, end_date)
+
+    if not industry_df.empty:
+        display_df = rel_df if momentum_mode == "Relative to Benchmark" else industry_df
+
+        # Sort rows by 21d column (best recent momentum at top)
+        sort_col = "21d" if "21d" in display_df.columns else display_df.columns[0]
+        display_df = display_df.sort_values(sort_col, ascending=False)
+
+        # Symmetric color scale centred at 0 for relative; 0-anchored for absolute
+        zmax = float(display_df.abs().max().max())
+        zmin = -zmax if momentum_mode == "Relative to Benchmark" else float(display_df.min().min())
+
+        # Build annotation text
+        text_vals = display_df.map(
+            lambda v: f"{v:+.1%}" if not np.isnan(v) else "N/A"
+        ).values.tolist()
+
+        fig_heat = go.Figure(go.Heatmap(
+            z=display_df.values.tolist(),
+            x=list(display_df.columns),
+            y=list(display_df.index),
+            colorscale="RdYlGn",
+            zmin=zmin,
+            zmax=zmax,
+            text=text_vals,
+            texttemplate="%{text}",
+            textfont={"size": 12},
+            hovertemplate="Industry: %{y}<br>Window: %{x}<br>Return: %{text}<extra></extra>",
+            showscale=True,
+            colorbar=dict(
+                tickformat=".0%",
+                len=1,
+                yanchor="top",
+                y=1.0,
+                thickness=15,
+            ),
+        ))
+
+        # Benchmark row as annotations below the heatmap (not a second trace)
+        bench_label = f"── {config['benchmark']['name']} (Benchmark) ──"
+        cols = list(display_df.columns)
+        for col in cols:
+            v = bench_series[col]
+            fig_heat.add_annotation(
+                x=col, y=bench_label,
+                text=f"{v:+.1%}" if not np.isnan(v) else "N/A",
+                showarrow=False,
+                font=dict(size=11, color="#444"),
+                xref="x", yref="y",
+            )
+
+        n_rows = len(display_df)
+        row_h  = max(36, min(56, 560 // n_rows))
+        fig_h  = n_rows * row_h + 60   # +60 for benchmark annotation row + margins
+
+        fig_heat.update_layout(
+            height=fig_h,
+            margin=dict(l=10, r=10, t=10, b=10),
+            yaxis=dict(
+                autorange="reversed",
+                # extend range to show benchmark label below last row
+                range=[-0.5, n_rows + 0.5],
+            ),
+        )
+        st.plotly_chart(fig_heat, width='stretch')
+    else:
+        st.info("Not enough data to compute momentum windows.")
+
+    st.markdown("---")
+
+    all_etfs, bench_return = get_all_etf_returns(config, start_date, end_date)
+
+    if all_etfs is None:
+        st.warning("No data found. Please run 'data_collection.py' to fetch missing data.")
+        return
+    if not all_etfs:
+        st.warning("No ETF data available for the selected date range.")
+        return
+
+    # ── Section 1: Top 10 / Bottom 10 ────────────────────────────────────────
+    sorted_etfs = sorted(all_etfs, key=lambda x: x['Return'], reverse=True)
+
+    def _render_etf_block(etfs, title, color_scale):
+        st.subheader(title)
+        df = pd.DataFrame(etfs)
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            st.markdown("**Performance Table**")
+            st.dataframe(
+                df[['Code', 'Name', 'Industry', 'Return', 'Outperformance']].style.format({
+                    'Return': '{:.2%}', 'Outperformance': '{:.2%}'
+                }),
+                hide_index=True, width='stretch',
+            )
+        with col2:
+            st.markdown("**Outperformance vs Benchmark**")
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=df['Outperformance'],
+                y=[f"{row['Code']}<br>{row['Industry']}" for _, row in df.iterrows()],
+                orientation='h',
+                marker=dict(color=df['Outperformance'], colorscale=color_scale, showscale=False),
+                text=df['Outperformance'].apply(lambda x: f'{x:.2%}'),
+                textposition='auto',
+            ))
+            fig.update_layout(
+                xaxis_title="Outperformance", xaxis_tickformat='.1%',
+                height=400, margin=dict(l=150, r=20, t=20, b=40),
+                yaxis={'categoryorder': 'total ascending'},
+            )
+            st.plotly_chart(fig, width='stretch')
+
+    _render_etf_block(sorted_etfs[:10],  "🏆 Top 10 Performing ETFs",    'RdYlGn')
+    st.markdown("---")
+    _render_etf_block(sorted_etfs[-10:], "📉 Bottom 10 Performing ETFs", 'RdYlGn_r')
+    st.markdown("---")
+
+    # ── Section 2: Industry Average Performance ───────────────────────────────
+    st.subheader("🏭 Industry Average Performance")
+    industry_data, _ = get_industry_avg_returns(config, start_date, end_date)
+
+    if industry_data:
+        industry_df = pd.DataFrame(industry_data).sort_values('Average Return', ascending=False)
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            st.markdown("**Industry Comparison Table**")
+            st.dataframe(
+                industry_df.style.format({
+                    'Average Return': '{:.2%}', 'Outperformance': '{:.2%}'
+                }).background_gradient(
+                    subset=['Outperformance'], cmap='RdYlGn',
+                    vmin=industry_df['Outperformance'].min(),
+                    vmax=industry_df['Outperformance'].max(),
+                ),
+                hide_index=True, width='stretch',
+            )
+        with col2:
+            st.markdown("**Industry Returns Comparison**")
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=industry_df['Average Return'], y=industry_df['Industry'],
+                orientation='h', name='Industry Avg',
+                marker=dict(color=industry_df['Average Return'],
+                            colorscale='RdYlGn', showscale=False),
+                text=industry_df['Average Return'].apply(lambda x: f'{x:.2%}'),
+                textposition='auto',
+            ))
+            fig.add_vline(
+                x=bench_return, line_dash="dash", line_color="black",
+                annotation_text=f"Benchmark: {bench_return:.2%}",
+                annotation_position="top",
+            )
+            fig.update_layout(
+                xaxis_title="Average Return", xaxis_tickformat='.1%',
+                height=400, margin=dict(l=200, r=20, t=40, b=40),
+                showlegend=False, yaxis={'categoryorder': 'total ascending'},
+            )
+            st.plotly_chart(fig, width='stretch')
+    else:
+        st.info("No industry data available.")
+
+    st.markdown("---")
+
+    # ── Section 3: Trading Volume by Industry ─────────────────────────────────
+    st.subheader("📊 Trading Volume by Industry")
+    vol_series = get_industry_volume_series(config, start_date, end_date)
+
+    if vol_series:
+        fig_vol = go.Figure()
+        for label, series in sorted(vol_series.items()):
+            fig_vol.add_trace(go.Scatter(
+                x=series.index, y=series.values, mode='lines', name=label,
+                stackgroup='one',
+                hovertemplate="%{fullData.name}: %{y:,.0f}<extra></extra>",
+            ))
+        fig_vol.update_layout(
+            hovermode="x unified", height=400,
+            margin=dict(l=0, r=0, t=30, b=0),
+            yaxis_title="Total Volume",
+            legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),
+        )
+        st.plotly_chart(fig_vol, width='stretch')
+
+        st.markdown("**Total Volume per Industry (selected period)**")
+        totals = dict(sorted({ind: s.sum() for ind, s in vol_series.items()}.items(),
+                              key=lambda x: x[1]))
+        fig_bar = go.Figure(go.Bar(
+            x=list(totals.values()), y=list(totals.keys()), orientation='h',
+            text=[f"{v:,.0f}" for v in totals.values()], textposition='outside',
+            marker_color='steelblue',
+        ))
+        fig_bar.update_layout(
+            height=max(300, len(totals) * 30),
+            margin=dict(l=0, r=80, t=20, b=0),
+            xaxis_title="Total Volume",
+        )
+        st.plotly_chart(fig_bar, width='stretch')
+    else:
+        st.info("No volume data available.")

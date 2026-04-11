@@ -1,0 +1,4874 @@
+[
+  {
+    "symbol": "462330",
+    "name": "Samsung KODEX Secondary Battery Industr",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "233740",
+    "name": "Samsung KODEX KOSDAQ150 Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "122630",
+    "name": "Samsung KODEX Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "229200",
+    "name": "Samsung KODEX KOSDAQ 150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "379800",
+    "name": "Samsung KODEX S&P500 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "360750",
+    "name": "Miraeasset TIGER S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "396500",
+    "name": "MiraeAsset TIGER Fn Semiconductor TOP 10",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "069500",
+    "name": "Samsung KODEX200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "379810",
+    "name": "Samsung KODEX US NASDAQ100 Total Return",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498400",
+    "name": "Samsung KODEX 200 Target Weekly Covered",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "117700",
+    "name": "Samsung KODEX Constructions",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "412570",
+    "name": "Miraeasset TIGER KRX Secondary Battery K-",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "329200",
+    "name": "Mirae Asset TIGER Real Estate Infra High Div",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0080G0",
+    "name": "Samsung KODEX KDefense TOP10",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488080",
+    "name": "MiraeAsset TIGER Semiconductor TOP 10 Le",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139220",
+    "name": "MiraeAsset TIGER 200 Constructions",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "305720",
+    "name": "Samsung KODEX Secondary Battery Industry",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494310",
+    "name": "Samsung KODEX Semiconductor Leverage",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487230",
+    "name": "SAMSUNG KODEX US AI Electric Power Cor",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395270",
+    "name": "NH-Amundi HANARO K-Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "091160",
+    "name": "Samsung KODEX Semicon",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "102110",
+    "name": "MiraeAsset TIGER 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "228790",
+    "name": "Mirae Asset TIGER Cosmetics",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487240",
+    "name": "SAMSUNG KODEX AI Electric Power Core Fa",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "462010",
+    "name": "Mirae Asset TIGER Secondary Battery Material",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395160",
+    "name": "Samsung KODEX Fn System Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0072R0",
+    "name": "MiraeAsset TIGER Gold Spot",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "364980",
+    "name": "Mirae Asset TIGER KRX Secondary Battery K",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "232080",
+    "name": "MiraeAsset TIGER KOSDAQ150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "381180",
+    "name": "MiraeAsset TIGER US PHLX Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "455850",
+    "name": "Shinhan SOL Semiconductor Materials & Eq",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "102970",
+    "name": "Samsung KODEX Securities",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "148020",
+    "name": "KB KBSTAR 200 Securities",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494670",
+    "name": "MiraeAsset TIGER Shipbuilding TOP10",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "458730",
+    "name": "Mirae Asset TIGER U.S. Dividend Equity",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292150",
+    "name": "Mirae Asset TIGER Top 10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448330",
+    "name": "Samsung KODEX Wise Samsung Electronics",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483320",
+    "name": "KIM ACE Nvidia Value Chain Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "367760",
+    "name": "KB KBSTAR Fn5G Tech",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449450",
+    "name": "Hanwha ARIRANG K-Defense Industry Fn",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "466920",
+    "name": "Shinhan SOL Shipbuilding TOP3 Plus",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463250",
+    "name": "MiraeAsset TIGER K-Defense Industry&Space",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "426030",
+    "name": "Timefolio TIMEFOLIO US NASDAQ100 Active",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "471990",
+    "name": "KODEX AI Semiconductor Core Equipment",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "486290",
+    "name": "TIGER US Nasdaq100+15% Premium Daily Opt",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "411060",
+    "name": "KIM KINDEX KRX Physical Gold",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "157500",
+    "name": "MiraeAsset TIGER Securities",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489250",
+    "name": "Samsung KODEX US Dividend Dow Jones",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "161510",
+    "name": "Hanwha ARIRANG High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476800",
+    "name": "KODEX Korea REITs Infra",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "278530",
+    "name": "Samsung KODEX 200 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "457480",
+    "name": "KIM ACE Tesla Value Chain Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498410",
+    "name": "Samsung KODEX Financials High Dividend T",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461950",
+    "name": "Samsung KODEX Secondary Battery Core M",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0048K0",
+    "name": "Samsung KODEX China Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0015B0",
+    "name": "SamsungActive KoAct US Nasdaq Growth A",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371160",
+    "name": "MIRAE ASSET TIGER China Hang Seng TECH",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "364970",
+    "name": "Mirae Asset TIGER KRX Bio K-New Deal",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "465580",
+    "name": "KIM ACE US Big Tech Top7 Plus",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0080Y0",
+    "name": "Shinhan SOL Shipbuilding TOP3 Plus leverage",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "233160",
+    "name": "Mirae Asset TIGER KOSDAQ150 Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494300",
+    "name": "Samsung KODEX US NASDAQ100 Daily Cov",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371460",
+    "name": "MiraeAsset TIGER China Electric Vehicle Sol",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0053L0",
+    "name": "MiraeAsset TIGER China Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495050",
+    "name": "KB RISE Korea Value-Up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "102780",
+    "name": "Samsung KODEX Samsung Group",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "462900",
+    "name": "Samsungactive KOACT Bio Healthcare Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "422420",
+    "name": "KB KBSTAR Secondary Cell Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "133690",
+    "name": "MiraeAsset TIGER Nasdaq 100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "474590",
+    "name": "WOORI Semiconductor Value Chain Active",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "091170",
+    "name": "Samsung KODEX Banks",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "466940",
+    "name": "MiraeAsset TIGER Bank High Dividend Plus",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0005D0",
+    "name": "Shinhan SOL All Solid State Battery & Silicon",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469150",
+    "name": "KIM ACE AI Semiconductor Focus",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "456600",
+    "name": "Timefolio TIMEFOLIO Global Artificial Intellig",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "497570",
+    "name": "MiraeAsset TIGER PHLX US AI Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0008T0",
+    "name": "Shinhan SOL Cosmetics TOP3 Plus",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "360200",
+    "name": "KIM KINDEX S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "471760",
+    "name": "Mirae Asset TIGER AI Semiconductor Core T",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "390390",
+    "name": "Samsung KODEX US Semiconductor MV",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "367380",
+    "name": "KIM KINDEX NASDAQ100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "305540",
+    "name": "MiraeAsset TIGER Secondary Cell",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "251600",
+    "name": "Hanwha ARIRANG High Dividend Conservati",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "381170",
+    "name": "MiraeAsset TIGER US Tech Top10 INDXX",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139260",
+    "name": "MiraeAsset TIGER 200 IT",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469170",
+    "name": "KIM ACE POSCO Group Focus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "493810",
+    "name": "MiraeAsset TIGER US AI Big Tech 10 Target",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489030",
+    "name": "Hanwha PLUS High Dividend Weekly Covere",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "458760",
+    "name": "Mirae Asset TIGER US Dividend +7% Premium",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "244580",
+    "name": "Samsung KODEX BIO",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "105190",
+    "name": "KIM KINDEX 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "446770",
+    "name": "KIM ACE Solactive Global Semiconductor TO",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "455860",
+    "name": "Shinhan SOL Secondary Battery Materials &",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491010",
+    "name": "MIRAE ASSET TIGER GLOBAL AI INFRA ACT",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0047A0",
+    "name": "MiraeAsset TIGER China Tech TOP10",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "484880",
+    "name": "Shinhan SOL Financial Group Plus High Divi",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "441800",
+    "name": "Timefolio TIMEFOLIO Korea Plus Dividend A",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448630",
+    "name": "KB KBSTAR Samsung Group Fixed Top3 Equ",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "471780",
+    "name": "MiraeAsset TIGER Korea Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139230",
+    "name": "MiraeAsset TIGER 200 Heavy Industry",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442580",
+    "name": "Hanwha ARIRANG Global Dram Iselect",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "354500",
+    "name": "KIM KINDEX KOSDAQ150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483280",
+    "name": "Samsung KODEX US AI Tech TOP10+15% Pr",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "445290",
+    "name": "Samsung KODEX K-Robot Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "423160",
+    "name": "Samsung KODEX KOFR Active (Synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449180",
+    "name": "Samsung KODEX S&P500(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "471040",
+    "name": "KoAct Global AI&Robotics Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "279530",
+    "name": "Samsung KODEX High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "091230",
+    "name": "MiraeAsset TIGER Semicon",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469070",
+    "name": "KB KBSTAR AI&Robotics",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "485540",
+    "name": "Samsung KODEX US AI Tech Top10",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "307520",
+    "name": "Mirae Asset Tiger Holdings Company",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475300",
+    "name": "SOL Semiconductor Front-End Process",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "446720",
+    "name": "Shinhan SOL US Dvidend Equity",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "465330",
+    "name": "KB KBSTAR Secondary Cell TOP10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475080",
+    "name": "Samsung KODEX Tesla Income Premium Bal",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475050",
+    "name": "ACE Kpop Focus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491620",
+    "name": "KB RISE US Tech 100 Daily Partial Covered C",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449190",
+    "name": "Samsung KODEX US Nasdaq100 (H)",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0089D0",
+    "name": "Samsung KODEX Financials High Dividend T",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0052D0",
+    "name": "MiraeAsset TIGER Korea Dividend Dow Jones",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "438080",
+    "name": "KIM KINDEX S&P500 3070 Blend",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0008S0",
+    "name": "MiraeAsset TIGER US Dividend Dow Jones T",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "466930",
+    "name": "Shinhan SOL Automobile TOP3 Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0025N0",
+    "name": "MiraeAsset TIGER TDF2045",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "152100",
+    "name": "Hanwha ARIRANG 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0000Z0",
+    "name": "KB RISE Bio TOP10 Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490590",
+    "name": "KB RISE US AI Value Chain Daily Partial Cov",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "434730",
+    "name": "NH-Amundi HANARO Nuclear Power",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "474800",
+    "name": "Kiwoom KOSEF US Oil&Energy",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385510",
+    "name": "Samsung KODEX K-Renewable Energy Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "444200",
+    "name": "Shinhan SOL KEDI Mega Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "379780",
+    "name": "KBSTAR S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0019K0",
+    "name": "Timefolio TIMEFOLIO US NASDAQ100 Balan",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463050",
+    "name": "Timefolio TIMEFOLIO Kbio Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "402970",
+    "name": "KIM KINDEX S&P US Dividend 100",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "496080",
+    "name": "MiraeAsset TIGER Korea Value-up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "091180",
+    "name": "Samsung KODEX AUTOs",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "226490",
+    "name": "Samsung KODEX KOSPI",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "228810",
+    "name": "Mirae Asset TIGER Media Contents",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495230",
+    "name": "SamsungActive KoAct Korea Value-up Active",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "459580",
+    "name": "Samsung KODEX CD Rate Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "482730",
+    "name": "Tiger US S&P500+10% Premium Daily Option",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "396520",
+    "name": "MiraeAsset TIGER China Semiconductor Fac",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "447770",
+    "name": "Miraeasset TIGER Tesla Balanced",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "138540",
+    "name": "MiraeAsset TIGER Hyundai Motors Group Plus",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490490",
+    "name": "Shinhan SOL US Dividend Blended 50",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "357870",
+    "name": "Miraeasset TIGER CD Rate Investment (Synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "237350",
+    "name": "Samsung KODEX KOSPI 100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "438100",
+    "name": "KIM KINDEX NASDAQ100 3070 Blend",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "472160",
+    "name": "MiraeAsset TIGER US Tech TOP10 Indxx(H)",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "434060",
+    "name": "Samsung KODEX Target Date 2050 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490600",
+    "name": "KB RISE US Dividend100 Daily Partial Covere",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "364990",
+    "name": "Mirae Asset TIGER KRX Game K-New Deal",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483340",
+    "name": "KIM ACE Google Value Chain Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495850",
+    "name": "Samsung KODEX KOREA Value-up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "457990",
+    "name": "Hanwha ARIRANG Solar&ESS Fn",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "361580",
+    "name": "KB KBSTAR 200 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "481190",
+    "name": "Shinhan SOL US Tech Top 10",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476260",
+    "name": "NH-Amundi HANARO Semiconductor Core P",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "267770",
+    "name": "MiraeAsset TIGER 200 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494890",
+    "name": "Samsung KODEX 200 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "451060",
+    "name": "UBSHana KTOP K200 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "271060",
+    "name": "Samsung KODEX Grains Futures H",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "421320",
+    "name": "Hanwha ARIRANG iSelect Aerospace&UAM",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "270810",
+    "name": "KB KBSTAR KOSDAQ150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "409820",
+    "name": "SAMSUNG KODEX US NASDAQ100 Leverage",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0043Y0",
+    "name": "Timefolio TIMEFOLIO China AI Tech Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494220",
+    "name": "HYUNDAI UNICORN SK hynix Value Chain Ac",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "368590",
+    "name": "KB KBSTAR US NASDAQ100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "228800",
+    "name": "Mirae Asset TIGER Tour Leisure",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "123320",
+    "name": "MiraeAsset TIGER Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0018C0",
+    "name": "Hanwha PLUS High Dividend Weekly Fixed C",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "219390",
+    "name": "KB KSTAR Synth-US Oil Gas EP Compa",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385720",
+    "name": "Timefolio TIMEFOLIO Kstock Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "372330",
+    "name": "SAMSUNG KODEX China Hang Seng TECH",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "481180",
+    "name": "SOL US AI Software",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461490",
+    "name": "Kb KBSTAR Global Multi-Asset Allocation Ac",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "480020",
+    "name": "KIM ACE US Big Tech Top 7 Plus 15% Premiu",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490090",
+    "name": "MiraeAsset TIGER US AI Big Tech 10",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0064K0",
+    "name": "Samsung KODEX Global Gold Active",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "415920",
+    "name": "Hanwha ARIRANG Global Rare Earth&Strate",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "069660",
+    "name": "Kiwoom KOSEF KOSPI 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0005A0",
+    "name": "Samsung KODEX US S&P500 Daily Covered",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0051G0",
+    "name": "Shinhan SOL US Nuclear Power SMR",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448300",
+    "name": "MiraeAsset TIGER Nasdaq 100 Total Return(H)",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0000J0",
+    "name": "Hanwha PLUS Hanwha Group",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "104530",
+    "name": "Kiwoom KOSEF High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0041D0",
+    "name": "Samsung KODEX US AI Software TOP10",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448290",
+    "name": "MiraeAsset TIGER S&P500 Total Return(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "478150",
+    "name": "TIMEFOLIO Global SpaceTech And Dfns Act",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "466950",
+    "name": "MIRAE ASSET TIGER GLOBAL AI ACTIVE",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "300950",
+    "name": "Samsung KODEX Game Industry",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0052S0",
+    "name": "Hana 1Q U.S. S&P500 Blend 50 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "456880",
+    "name": "KIM ACE USD SOFR(Synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "388420",
+    "name": "KB KBSTAR Non-Memory Semiconductor Ac",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "472170",
+    "name": "TIGER US Tech TOP10 Balanced",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442570",
+    "name": "KB KBSTAR TDF2050 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453810",
+    "name": "Samsung KODEX India Nifty50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "411420",
+    "name": "Samaung KODEX US Metaverse NASDAQ Ac",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0082V0",
+    "name": "Samsung KODEX TDF 2060 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "426020",
+    "name": "Timefolio TIMEFOLIO US S&P500 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "315270",
+    "name": "MiraeAsset TIGER 200 Communication Service",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "480030",
+    "name": "KIM ACE US 500 15% Premium Distribution(S",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "140710",
+    "name": "Samsung KODEX Transportation",
+    "theme": "transportation",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "138530",
+    "name": "MiraeAsset TIGER LG Group Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475310",
+    "name": "Shinhan SOL Semiconductor Back-End Proc",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0023A0",
+    "name": "Shinhan SOL US Quantum Computing TOP10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "365000",
+    "name": "Mirae Asset TIGER KRX Internet K-New Deal",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "473460",
+    "name": "KODEX Investor's Choice US TOP 25",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "474220",
+    "name": "MiraeAsset TIGER US Tech Top10+10% Prem",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "237370",
+    "name": "Samsung KODEX Growth Dividend Balanced",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483290",
+    "name": "KODEX US Dividend+10% Premium Dow Jones",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261070",
+    "name": "Mirae Asset TIGER KOSDAQ150 Biotech",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "160580",
+    "name": "MiraeAsset TIGER Physical Copper",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "377990",
+    "name": "MIRAE ASSET TIGER Fn Renewable Energy",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495550",
+    "name": "Shinhan SOL Korea Value-up Total Return",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "459750",
+    "name": "Kb KBSTAR Global Equity Allocation Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "394670",
+    "name": "TIGER Glbal Lithium & Battery Tech Solactiv",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0041E0",
+    "name": "Samsung KODEX US S&P500 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "464310",
+    "name": "MIRAE ASSET TIGER Global Artificial Intellig",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "315960",
+    "name": "KB KBSTAR Large Cap High Dividen 10 TR",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0026S0",
+    "name": "Hana 1Q U.S. S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "414780",
+    "name": "Miraeasset TIGER Synth-China STAR50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261240",
+    "name": "Samsung KODEX USD Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "192090",
+    "name": "MiraeAsset TIGER China A300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "423920",
+    "name": "MiraeAsset TIGER Synth-US PHLX Semicond",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "455030",
+    "name": "Samsung KODEX US Dollar SOFR Active(Sy",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469050",
+    "name": "KB KBSTAR US Semiconductor(H)",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495060",
+    "name": "Timefolio TIMEFOLIO Korea Value-up Active",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "295040",
+    "name": "Shinhan SMART 200 TR",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "486450",
+    "name": "Shinhan SOL US AI Electric Power Infrastruct",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "480040",
+    "name": "ACE US Semiconductor 15% Premium(Syn)",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0043B0",
+    "name": "MiraeAsset TIGER MMF Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "157490",
+    "name": "MiraeAsset TIGER Software",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q570023",
+    "name": "Korea Investment & Securities TRUE lnverse",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433500",
+    "name": "KIM KINDEX Nuclear Power Theme",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0035T0",
+    "name": "Hanwha PLUS Global Humanoid Robot Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0038A0",
+    "name": "Samsung KODEX US Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "418660",
+    "name": "MiraeAsset TIGER Synth-NASDAQ 100 Lever",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "117680",
+    "name": "Samsung KODEX Steels",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "117460",
+    "name": "Samsung KODEX Energy & Chemicals",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0069M0",
+    "name": "Hana 1Q NASDAQ100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "332500",
+    "name": "KIM KINDEX 200TotalReturn",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453640",
+    "name": "Samsung KODEX S&P500 Health Care",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "283580",
+    "name": "Samsung KODEX China CSI300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453870",
+    "name": "MiraeAsset TIGER India Nifty 50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490480",
+    "name": "Shinhan SOL K Defense Industry",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "290130",
+    "name": "KB KBSTAR ESG SRI",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449170",
+    "name": "MiraeAsset TIGER Synth-KOFR Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "441680",
+    "name": "MiraeAsset TIGER Synth-Nasdaq100 Covere",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0060H0",
+    "name": "MiraeAsset TIGER Total World Stock Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "218420",
+    "name": "Samsung KODEX Synth-US Energy",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448540",
+    "name": "KIM ACE NVIDIA30 Blend Bloomberg",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0066W0",
+    "name": "Shinhan SOL Global Gold FoFs",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0036D0",
+    "name": "Timefolio TIMEFOLIO U.S. Dividend Dow Jon",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498270",
+    "name": "Kiwoom KOSEF US Quantum Computing",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139250",
+    "name": "MiraeAsset TIGER 200 Energy & Chemicals",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453330",
+    "name": "KB KBSTAR S&P500(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0074K0",
+    "name": "SAMSUNGACTIVE KoAct KExport Leaders T",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0036R0",
+    "name": "KB RISE US Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "435420",
+    "name": "MiraeAsset TIGER NASDAQ100 Balanced TR",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "138520",
+    "name": "MiraeAsset TIGER Samsung Group",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "473590",
+    "name": "ACE US Equity Best Seller",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494840",
+    "name": "MiraeAsset TIGER US Defense TOP 10",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488500",
+    "name": "MiraeAsset TIGER S&P 500 Equal Weight",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "497780",
+    "name": "SamsungActive KoAct US Natural Gas Infras",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491820",
+    "name": "NH-Amundi HANARO Electric Power Capex",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "298340",
+    "name": "Hanwha Arirang Ktb 3Y Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139270",
+    "name": "MiraeAsset TIGER 200 Financials",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266420",
+    "name": "Samsung KODEX Healthcare",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0021E0",
+    "name": "KIM ACE TDF2050 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489000",
+    "name": "Hanwha PLUS Japan Ultra Short-term Treasu",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "447430",
+    "name": "KIM ACE Next level Value Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "316670",
+    "name": "Kiwoom KOSEF KOSDAQ 150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433330",
+    "name": "Shinhan SOL S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "468380",
+    "name": "SAMSUNG KODEX iShares US HY Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "409810",
+    "name": "SAMSUNG KODEX US NASDAQ100 Futures I",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "466810",
+    "name": "BNK BNK Secondary Battery Cathode Materi",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "412770",
+    "name": "MiraeAsset TIGER Global Metaverse Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266360",
+    "name": "Samsung KODEX Media & Entertainment",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "314250",
+    "name": "Samsung KODEX FANG Plus",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483330",
+    "name": "ACE Microsoft Value Chain Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "452360",
+    "name": "Shinhan SOL US Dividend Equity",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476850",
+    "name": "SamsungActive KoAct Dividend Growth Active",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "423170",
+    "name": "Shinhan SOL Korea-Global Semiconductor A",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "429000",
+    "name": "Mirae Asset TIGER S&P500 Dividend Aristocr",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0086B0",
+    "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "364960",
+    "name": "Mirae Asset TIGER KRX BBIG K-New Deal",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266160",
+    "name": "KB KBSTAR High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "479850",
+    "name": "NH-Amundi HANARO K-Beauty",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "418670",
+    "name": "Miraeasset TIGER Global Cybersecurity INDXX",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494330",
+    "name": "KIM ACE Life Asset Shareholder Value Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442320",
+    "name": "KB KBSTAR Global Nuclear Power",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "140700",
+    "name": "Samsung KODEX Insurance",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261060",
+    "name": "Mirae Asset TIGER KOSDAQ150 IT",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495940",
+    "name": "KB RISE US AI Tech Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0000D0",
+    "name": "MiraeAsset TIGER SYNTH-NVIDIA US Treasu",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498860",
+    "name": "KB RISE Korea Financials High Dividend",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433980",
+    "name": "Samsung KODEX Target Date 2040 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "438320",
+    "name": "MiraeAsset TIGER Synth-China HStech Lever",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475070",
+    "name": "SamsungActive KOACT Global Climate Tech",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "091220",
+    "name": "MiraeAsset TIGER Banks",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "310960",
+    "name": "Mirae Asset Tiger 200 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "482030",
+    "name": "SamsungActive KoAct Tech Materials Supply",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487750",
+    "name": "BNK BNK On-Device AI",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371470",
+    "name": "MiraeAsset TIGER China Biotech Solactive",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "204450",
+    "name": "Samsung KODEX China H Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "400970",
+    "name": "MiraeAsset TIGER Fn Metaverse",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469060",
+    "name": "KB KBSTAR US Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "213610",
+    "name": "Samsung KODEX Samsung Group Value",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0013R0",
+    "name": "KB RISE Tesla UST30Y 15% Target Cvd Call",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "363580",
+    "name": "Samsung KODEX 200IT Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "241180",
+    "name": "MiraeAsset TIGER Nikkei 225",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "325020",
+    "name": "SAMSUNG KODEX Dividend Value",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "243880",
+    "name": "Mirae Asset TIGER 200 IT Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0047R0",
+    "name": "KB RISE Palantir Fixed Tech100",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "277630",
+    "name": "Mirae Asset TIGER KOSPI",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261250",
+    "name": "Samsung KODEX USD Futures Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0049K0",
+    "name": "KIM ACE US Dividend Quality 5050 Blended",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "325010",
+    "name": "SAMSUNG KODEX Fn Growth",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "419650",
+    "name": "Hanwha ARIRANG Hydrogen Nextgen Fuel C",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395290",
+    "name": "NH-Amundi HANARO K-POP&Media",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487950",
+    "name": "SAMSUNG KODEX Taiwan Technology High",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "447620",
+    "name": "Shinhan SOL US TOP5 40 Blended",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "166400",
+    "name": "MiraeAsset TIGER Covered C200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "251350",
+    "name": "Samsung KODEX MSCI World",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0005G0",
+    "name": "IBK ITF K-AI Semiconductor Core Technology",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "428510",
+    "name": "Samsung KODEX China Metaverse Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "458750",
+    "name": "Mirae Asset TIGER US Dividend +3% Premium",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "152500",
+    "name": "KIM KINDEX Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "381570",
+    "name": "NH-Amundi HANARO FnGreen Energy",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395280",
+    "name": "NH-Amundi HANARO K-Game",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266410",
+    "name": "Samsung KODEX Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "329650",
+    "name": "SAMSUNG KODEX TRF3070",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0049M0",
+    "name": "KIM ACE US Dividend Quality Plus Covered",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "479730",
+    "name": "MiraeAsset TIGRT India Billion Consumer",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "456610",
+    "name": "MiraeAsset TIGER USD SOFR Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292560",
+    "name": "Mirae Asset Tiger JPY KRW Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "315930",
+    "name": "Samsung KODEX Top 5 Plus Total Return",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "496120",
+    "name": "KIM ACE Korea Value-Up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "438900",
+    "name": "Nh-Amundi HANARO K-Food",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "414270",
+    "name": "KIM KINDEX US-China Next EV&AV Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "245710",
+    "name": "KIM KINDEX Synth-Vietnam VN30",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0083S0",
+    "name": "Hana 1Q U.S. Medical AI",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "214980",
+    "name": "Samsung KODEX KRW CASH PLUS",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "294400",
+    "name": "Kiwoom KOSEF 200 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0013P0",
+    "name": "KB RISE US Bank TOP10",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0015F0",
+    "name": "Kiwoom KIWOOM Blended PALANTIR Equity",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433970",
+    "name": "Samsung KODEX Target Date 2030 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "354350",
+    "name": "Nh-Amundi HANARO Global Luxury S&P",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "337140",
+    "name": "Samsung KODEX KOSPI LargeCap",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "485690",
+    "name": "KB RISE U.S. AI Value Chain TOP3 Plus",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "367770",
+    "name": "KB KBSTAR Fn Hydrogen Economy",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433880",
+    "name": "Hanwha ARIRANG TDF2060 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139240",
+    "name": "MiraeAsset TIGER 200 Steels & Materials",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "441540",
+    "name": "NH-Amundi HANARO Shipbuilding&Shipping",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453820",
+    "name": "Samsung KODEX India Nifty50 Leverage(SY",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476690",
+    "name": "TIGER Global Obesity Treatment Top2 Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "143860",
+    "name": "MiraeAsset TIGER Health Care",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "352540",
+    "name": "Samsung KODEX TSE Japan Real Estate",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498050",
+    "name": "NH-Amundi HANARO Bio Korea Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "468630",
+    "name": "SAMSUNG KODEX iShares US Investment Gr",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "302190",
+    "name": "MiraeAsset TIGER KTB 3-10",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "210780",
+    "name": "MiraeAsset TIGER KOSPI High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "105010",
+    "name": "MiraeAsset TIGER Latin",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453950",
+    "name": "MiraeAsset TIGER TSMC Value Chain Factset",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385520",
+    "name": "Samsung KODEX K-Future Car Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "150460",
+    "name": "MiraeAsset TIGER China Consumer",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "195930",
+    "name": "MiraeAsset TIGER Synth-Euro Stoxx 50 (H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261140",
+    "name": "Mirae Asset Tiger Preferred Stock",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "388280",
+    "name": "KB KBSTAR Contact Leader",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476030",
+    "name": "SOL NASDAQ100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "243890",
+    "name": "Mirae Asset TIGER 200 Energy & Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453650",
+    "name": "Samsung KODEX S&P500 Financial",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "280930",
+    "name": "Samsung KODEX US Russell 2000 H",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453080",
+    "name": "Kiwoom KOSEF NASDAQ100(H)",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "309230",
+    "name": "Kim Kindex Us Wide Moat",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "473640",
+    "name": "NH-Amundi HANARO Global Gold Miner",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0000H0",
+    "name": "Samsung KODEX India Nifty Midcap 100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0057H0",
+    "name": "Hanwha PLUS S&P500 US TBill 50/50 Blend",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "473490",
+    "name": "KOSEF Global AI Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "460960",
+    "name": "KIM ACE Solactive Global Income TOP10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "310970",
+    "name": "Mirae Asset Tiger MSCI Korea Total Return",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0040S0",
+    "name": "NH-Amundi HANARO Global Physical AI Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "291630",
+    "name": "Kiwoom KOSEF KOSDAQ150 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "440910",
+    "name": "Woori WOORI US S&P Aerospace&Defense",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371450",
+    "name": "MiraeAsset Tiger Global Cloud Computing IN",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139320",
+    "name": "MiraeAsset TIGER Precious Metal Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "300610",
+    "name": "MIRAE ASSET TIGER K-GAME",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "278540",
+    "name": "Samsung KODEX MSCI Korea Total Return",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "465610",
+    "name": "KIM ACE US Big Tech Top7 Plus Leverage(S",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "464600",
+    "name": "Shinhan SOL Automobile Materials & Equipm",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "464610",
+    "name": "Shinhan SOL Medical Device Materials & Equ",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "195980",
+    "name": "Hanwha ARIRANG Synth-MSCI Emerging Ma",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "456680",
+    "name": "MiraeAsset TIGER China EV Leverage(SYNTH)",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "401170",
+    "name": "KB KBSTAR iSelect METAVERSE",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "445150",
+    "name": "Samsung KODEX K-Eco Ship Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "380340",
+    "name": "KIM KINDEX Fn5G Plus",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "429760",
+    "name": "Hanwha ARIRANG S&P 500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "479620",
+    "name": "SOL US AI Semiconductor Chip Makers",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "404120",
+    "name": "TIMEFOLIO TIMEFOLIO CarbonZero Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491090",
+    "name": "SAMSUNG KODEX US TECH TRILLIONAIRE",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461450",
+    "name": "Samsung KODEX KOSDAQ Global",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "277640",
+    "name": "Mirae Asset TIGER KOSPI Large Cap",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "465660",
+    "name": "Mirae Asset TIGER Japan Semiconductor Fa",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495330",
+    "name": "Hana 1Q Korea Value-Up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "322410",
+    "name": "NH-Amundi HANARO High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "122090",
+    "name": "Hanwha ARIRANG KOSPI50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "137610",
+    "name": "MiraeAsset TIGER Agriculture Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385600",
+    "name": "KIM KINDEX Electric Vehicles Value Chain Ac",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "360150",
+    "name": "Samsung KODEX KOSDAQ150LONG KOSPI2",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475630",
+    "name": "MiraeAsset TIGER Synth CD 1Y Rate Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "329670",
+    "name": "SAMSUNG KODEX TRF7030",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0046Y0",
+    "name": "KIM ACE US Dividend Quality",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0004G0",
+    "name": "Hana 1Q U.S. Dividend 30",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "464920",
+    "name": "Hanwha ARIRANG Japan Semiconductor Mat",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488210",
+    "name": "Kiwoom KOSEF K-Semiconductor North Am",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "269540",
+    "name": "Hanwha ARIRANG S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "101280",
+    "name": "Samsung KODEX Japan TOPIX100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "211900",
+    "name": "Samsung KODEX Dividend Growth",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487130",
+    "name": "SAMSUNGACTIVE KoAct AI Infrastructure Ac",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "496770",
+    "name": "Hanwha PLUS Global Defense",
+    "theme": "military_defense",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "401470",
+    "name": "Samsung KODEX K-Metaverse Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0087F0",
+    "name": "KIM ACE China AI Big Tech TOP2 Plus Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "204480",
+    "name": "Mirae Asset Tiger Synth China",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "399110",
+    "name": "Shinhan SOL S&P500 ESG",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483420",
+    "name": "ACE Apple Value Chain Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "446700",
+    "name": "KB KBSTAR Battery Recycling",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "168580",
+    "name": "KIM KINDEX China Main Land CSI300 Feeder",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0023B0",
+    "name": "Hanwha PLUS U.S. Quantum Computing TOP",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "415340",
+    "name": "Samsung KODEX China STAR50(synth)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475350",
+    "name": "KB KBSTAR Berkshire Portfolio Top10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "300640",
+    "name": "KB KBStar Game Industry",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "454320",
+    "name": "NH-Amundi HANARO CAPEX",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442560",
+    "name": "KB KBSTAR TDF2040 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "415760",
+    "name": "Shinhan SOL China Fostering Industry Activ",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266370",
+    "name": "Samsung KODEX IT",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "182480",
+    "name": "MiraeAsset TIGER Synth-MSCI US REIT (H)",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "429740",
+    "name": "Hanwha ARIRANG Fn K-REITs",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "293180",
+    "name": "NH Amundi HANARO 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "298770",
+    "name": "Samsung KODEX Korea Taiwan IT Premier",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385710",
+    "name": "Timefolio TIMEFOLIO Bbig Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0086C0",
+    "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "464930",
+    "name": "MiraeAsset TIGER Global Innovative Bluechi",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "256440",
+    "name": "KIM KINDEX Synth-MSCI Indonesia",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "326240",
+    "name": "KB KBSTAR IT Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "379790",
+    "name": "KB KBSTAR EURO STOXX 50(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0020H0",
+    "name": "SamsungActive KoAct Global Quantum Com",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "304940",
+    "name": "Samsung KODEX US Nasdaq100 Futures (H)",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0047N0",
+    "name": "Hanwha PLUS China AI Tech Top 10",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "276970",
+    "name": "SAMSUNG KODEX US S&P Dividend Covere",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461580",
+    "name": "Mirae Asset TIGER KOSDAQ Global",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "499660",
+    "name": "MiraeAsset TIGER Synth CD Rate Plus Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "329660",
+    "name": "SAMSUNG KODEX TRF5050",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "410870",
+    "name": "Timefolio TIMEFOLIO Kculture Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469160",
+    "name": "KIM ACE Japan Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "256750",
+    "name": "Samsung KODEX Synth-ChiNext",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494420",
+    "name": "Hanwha PLUS US Dividend Growth Daily Cov",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "364690",
+    "name": "Samsung KODEX Innovative Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "278240",
+    "name": "KB KBSTAR F-KOSDAQ150 Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "174360",
+    "name": "KB KBSTAR China Mainland CSI100 Feeder",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "352560",
+    "name": "Samsung DJI US Real Estate",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "100910",
+    "name": "Kiwoom KOSEF KRX 100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "200250",
+    "name": "Kiwoom KOSEF Synth-India (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "334690",
+    "name": "KB KBSTAR Palladium Futures (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "394660",
+    "name": "TIGER Glbal Autonomous&Electric Vehicles",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453630",
+    "name": "Samsung KODEX S&P500 Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "411540",
+    "name": "Shinhan SOL 200 Top10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "272560",
+    "name": "KB KBSTAR Short-term KTB Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "245340",
+    "name": "MiraeAsset TIGER Dow Jones 30",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "108450",
+    "name": "KIM KINDEX Samsung Group SW",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "153130",
+    "name": "Samsung KODEX KRW Cash",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "114820",
+    "name": "MiraeAsset TIGER KTB3",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "203780",
+    "name": "MiraeAsset TIGER NASDAQ BIO",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449580",
+    "name": "KB KBSTAR US Big Data TOP3 Equity&Kore",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "211560",
+    "name": "MiraeAsset TIGER Dividend Growth",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "195970",
+    "name": "Hanwha ARIRANG Synth-MSCI EAFE (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "387280",
+    "name": "MiraeAsset TIGER Future Mobility Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0036Z0",
+    "name": "KB RISE US Natural Gas Value Chain",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "105780",
+    "name": "KB KBSTAR Top5 Group",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "381560",
+    "name": "NH-Amundi HANARO FnElectric&Hydrogen V",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442260",
+    "name": "DB MIGHTY Dynamic Quant Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "200030",
+    "name": "Samsung KODEX Synth-US Industrial",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "219900",
+    "name": "KIM KINDEX Synth-China Main Land Leverag",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "474920",
+    "name": "ASSETPLUS Assetplus China Leading Comp",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "437370",
+    "name": "KB KBSTAR Global Agribusiness MV",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0047P0",
+    "name": "KB RISE Tesla Fixed Tech100",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "337160",
+    "name": "Samsung KODEX 200ESG",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "444490",
+    "name": "WOORI US S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "114100",
+    "name": "KB KBSTAR KTB 3 Year",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491830",
+    "name": "MiraeAsset TIGER US AI Semiconductor Fabl",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "440340",
+    "name": "MiraeAsset TIGER Global Multi Asset TIF Acti",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "480310",
+    "name": "MiraeAsset TIGER Global On Device AI",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "481050",
+    "name": "Samsung KODEX 1Y Bank CD Plus Active(Sy",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "253250",
+    "name": "Kiwoom KOSEF 200 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448100",
+    "name": "Woori WOORI KS200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "225040",
+    "name": "MiraeAsset TIGER Synth-S&P500 Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0007G0",
+    "name": "Hanwha PLUS Global Nuclear Energy Value",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "152870",
+    "name": "KyoboAXA POWER K200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "365040",
+    "name": "MiraeAsset TIGER AI Korea Growth Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463680",
+    "name": "Samsung KODEX S&P500 Technology",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487910",
+    "name": "KIM ACE India Consumption Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395150",
+    "name": "Samsung KODEX Fn Webtoon and Drama",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "450910",
+    "name": "Shinhan SOL KOSDAQ 150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0018Z0",
+    "name": "KB RISE US Quantum Computing",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "416090",
+    "name": "KIM KINDEX China STAR50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476070",
+    "name": "Samsung KODEX Global Obesity Treatment T",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "399580",
+    "name": "KB KBSTAR Global Clean Energy",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "432840",
+    "name": "NH-Amundi HANARO US S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0065G0",
+    "name": "Samsung KODEX China Tech Top 10",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0050E0",
+    "name": "Hanwha PLUS US AI Agents",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "130730",
+    "name": "Kiwoom KOSEF Enhanced Cash",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0021D0",
+    "name": "KIM ACE TDF2030 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461340",
+    "name": "NH-Amundi HANARO Global Generative AI A",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "359210",
+    "name": "Samsung KODEX KOSPI TotalReturn",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449770",
+    "name": "Kiwoom KOSEF S&P500",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "275980",
+    "name": "Mirae TIGER MorningStar Glb Exponential Tech",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "228820",
+    "name": "Mirae Asset TIGER KTOP30",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "360140",
+    "name": "Samsung KODEX 200LONGKOSDAQ150SHO",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395170",
+    "name": "Samsung KODEX Fn Top10 Equal Weight",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453010",
+    "name": "Hanwha ARIRANG KOFR",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "475380",
+    "name": "KB KBSTAR Global Realty Income",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "302450",
+    "name": "KB KBStar KOSPI",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q530063",
+    "name": "Samsung Securities Samsung Leverage Cop",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "493420",
+    "name": "Shinhan SOL US Dividend Equity Total Return",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "227540",
+    "name": "Mirae Asset TIGER 200 Health Care",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "152380",
+    "name": "Samsung KODEX 10Y F-LKTB",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "153270",
+    "name": "Kiwoom ikon KOSPI 100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "484890",
+    "name": "SOL Mark to Market MMF Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0053M0",
+    "name": "TheJ THEJ midsmall Focus Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0051A0",
+    "name": "Samsungactive KoAct Broadcom Value Chai",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "227550",
+    "name": "Mirae Asset TIGER 200 Industrials",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "284980",
+    "name": "KB KBSTAR 200 Financials",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0021C0",
+    "name": "KIM ACE Long Term Asset Allocation Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "275300",
+    "name": "SAMSUNG KODEX MSCI Quality",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "341850",
+    "name": "MiraeAsset TIGER REITs Real Estate Infra Bo",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "367740",
+    "name": "NH-Amundi HANARO 5G Industry",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0079X0",
+    "name": "KIM ACE BYD Value Chain Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "102960",
+    "name": "Samsung KODEX Machinary & Equipment",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "237440",
+    "name": "Mirae Asset TIGER Consumer Goods Balance",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "238720",
+    "name": "KIM KINDEX Japan Nikkei 225 Hedged",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489860",
+    "name": "Kiwoom KOSEF Global Electricity Grid Infras",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "445910",
+    "name": "MiraeAsset TIGER MKF Dividend Aristocrats",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "140950",
+    "name": "KyoboAXA POWER K100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0015E0",
+    "name": "Kiwoom KIWOOM Blended NVIDIA Equity an",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491610",
+    "name": "Hana 1Q CD Rate Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "477730",
+    "name": "Samsung KODEX India Tata Group",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "485810",
+    "name": "TIMEFOLIO TIMEFOLIO Global Anti-Aging Bi",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "375760",
+    "name": "NH-Amundi HANARO Carbon Efficiennt Gree",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "487920",
+    "name": "KIM ACE India Market Leaders Group Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371870",
+    "name": "KIM KINDEX China Hang Seng TECH",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "326230",
+    "name": "KB KBSTAR Domestic Consumption Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "275290",
+    "name": "SAMSUNG KODEX MSCI Enhanced Value",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "419430",
+    "name": "KODEX MSCI China All Shares Bttrs(synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139280",
+    "name": "MiraeAsset TIGER Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "403790",
+    "name": "MIDAS MIDAS KoreaStock Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0028X0",
+    "name": "Samsung KODEX US Financial Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "276000",
+    "name": "Mirae TIGER MorningStar Glb Upstream Natu",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "305050",
+    "name": "KIM KINDEX KOSPI",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "276990",
+    "name": "Samsung KODEX Global Robotics&Automati",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "411860",
+    "name": "Kiwoom KOSEF Germany DAX",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "219480",
+    "name": "Samsung KODEX S&P500 Futures",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "256450",
+    "name": "Hanwha ARIRANG Syth-ChiNext",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "412560",
+    "name": "Miraeasset TIGER KRX BBIG K-New Deal Lev",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0078V0",
+    "name": "Hanwha PLUS US Robotaxi",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "434960",
+    "name": "Daishin DAISHIN 343 K200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0067V0",
+    "name": "MiraeAsset TIGER China Global Leaders TOP",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "147970",
+    "name": "MiraeAsset TIGER Momentum",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "269420",
+    "name": "Samsung KODEX S&P Global Infrastructure -",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "306950",
+    "name": "Samsung KODEX KRX300 Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "417450",
+    "name": "KB KBSTAR Global Hydrogen Economy Indxx",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "304770",
+    "name": "NH-Amundi HANARO KOSDAQ150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "251590",
+    "name": "Hanwha ARIRANG High Dividend Low Vol 50",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483030",
+    "name": "Kiwoom KOSEF US Blockbuster Biotech Dru",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "427120",
+    "name": "KB KBSTAR Platform Theme",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449780",
+    "name": "Kiwoom KOSEF S&P500(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "428560",
+    "name": "Samsung KODEX US Industry TOP10 INDXX",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "459560",
+    "name": "Samsung KODEX Tesla Value Chain Factset",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "099140",
+    "name": "Samsung KODEX China H",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "435550",
+    "name": "Kiwoom HEROES TDF 2050 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "407830",
+    "name": "Assetplus ASSETPLUS Global Platform Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483570",
+    "name": "KCGI KCGI US S&P500 TOP10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "226980",
+    "name": "Samsung KODEX 200 Mid Small",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "396510",
+    "name": "MiraeAsset TIGER China Clean Energy SOLA",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488200",
+    "name": "Kiwoom KOSEF K-Battery North America Su",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "477080",
+    "name": "KBSTAR CD Rate Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "373490",
+    "name": "SAMSUNG KODEX K-Innovation Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494340",
+    "name": "KIM ACE Global AI Custom Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "306530",
+    "name": "NH-Amundi HANARO KOSDAQ150 Futures L",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442090",
+    "name": "ASSETPLUS Assetplus Korea Blacksmith Ac",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489290",
+    "name": "WOORI WON US Billionaire",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0001P0",
+    "name": "DB MIGHTY Biosimilar & CDMO Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "252400",
+    "name": "KB KBSTAR 200 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "328370",
+    "name": "Hanwha ARIRANG KOSPI Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "245350",
+    "name": "MiraeAsset TIGER Euro STOXX Dividend 30",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "447660",
+    "name": "Hanwha ARIRANG Apple Balanced FN",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "407310",
+    "name": "NH-Amundi HANARO 200 Top10",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461900",
+    "name": "Hanwha ARIRANG US Tech 10 iselect",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "417630",
+    "name": "Miraeasset TIGER Innovator ESG30",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "442550",
+    "name": "KB KBSTAR TDF2030 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "460660",
+    "name": "Kb KBSTAR US Dividend Kings",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453660",
+    "name": "Samsung KODEX S&P500 Consumer Discreti",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "174350",
+    "name": "MiraeAsset TIGER Low Volatility",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292190",
+    "name": "Samsung KODEX KRX300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0089C0",
+    "name": "Samsung KODEX S&P500 Volatility Continge",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "307510",
+    "name": "Mirae Asset Tiger Healthcare Equip",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "387270",
+    "name": "MiraeAsset TIGER Global Bbig Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0067Y0",
+    "name": "MiraeAsset TIGER China AI Software",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q570029",
+    "name": "Korea Investment & Securities TRUE KOSPI",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483020",
+    "name": "Kiwoom KOSEF AI Medical Technology",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "192720",
+    "name": "KyoboAXA POWER LVHD",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "413220",
+    "name": "Shinhan SOL China Photovoltaic CSI(Synthet",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "131890",
+    "name": "KIM KINDEX Samsung Group Equal Weighted",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "273140",
+    "name": "SAMSUNG KODEX Active Korea FRN Bank 1",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433250",
+    "name": "Hyundai UNICORN R&D Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "479520",
+    "name": "KBSTAR KOFR Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "248270",
+    "name": "MiraeAsset TIGER Synth-Global Healthcare",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "486240",
+    "name": "Daishin DAISHIN343 AI Semiconductor Infras",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "435540",
+    "name": "Kiwoom HEROES TDF 2040 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "390400",
+    "name": "Samsung KODEX US Smart Mobility S&P",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "269530",
+    "name": "Hanwha ARIRANG S&P Global Infra Equity",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494410",
+    "name": "Hanwha PLUS S&P500 Growth",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "404650",
+    "name": "Shinhan SOL KRX Climate Change Solutions",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "480460",
+    "name": "Woori WOORI Korea Real Estates Quality To",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "419420",
+    "name": "KODEX US Clean Energy NASDAQ",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "213630",
+    "name": "Hanwha ARIRANG Synth-DJ US Select Divid",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "371150",
+    "name": "KB KBSTAR China Hang Seng TECH",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "494180",
+    "name": "Timefolio TIMEFOLIO Global Consumer Tren",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "404260",
+    "name": "Samsung KODEX KRX Climate Change Solut",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "196230",
+    "name": "KB KBSTAR Short-Term MSB",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "435530",
+    "name": "Kiwoom HEROES TDF 2030 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495040",
+    "name": "Hanwha PLUS Korea Value-up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "402460",
+    "name": "NH-Amundi HANARO K-Metaverse MZ",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "183710",
+    "name": "KB KBSTAR Equity Balanced",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "227570",
+    "name": "Mirae Asset TIGER Quality Value",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "104520",
+    "name": "Kiwoom KOSEF Bluechip",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "453060",
+    "name": "NH-Amundi HANARO KOFR Active(Synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "245360",
+    "name": "MiraeAsset TIGER China H-Share",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "169950",
+    "name": "Samsung KODEX FTSE China A50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292160",
+    "name": "MIRAE ASSET TIGER KRX300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "143850",
+    "name": "MiraeAsset TIGER S&P500 Futures",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "269370",
+    "name": "Mirae TIGER Synth-S&P Global Infrastructure",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "227560",
+    "name": "MiraeAsset TIGER 200 Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0008E0",
+    "name": "KIM ACE US Focus Manufacturing Mid-Small",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "185680",
+    "name": "Samsung KODEX Synth-US Biotech",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "469790",
+    "name": "KIWOOM KOSEF K-TechTOP10",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476310",
+    "name": "KB KBSTAR Global Obesity Care Industry To",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0026E0",
+    "name": "Samsung KODEX US S&P500 Buffer March A",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488290",
+    "name": "MIDAS MIDAS Japan Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "490330",
+    "name": "SAMSUNGACTIVE KoAct US Brain Treatment",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463300",
+    "name": "KB KBSTAR China Mainland CSI300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "229720",
+    "name": "Samsung KODEX KTOP30",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "477490",
+    "name": "ASSETPLUS Global Leading Cmpny Fcs10 Act",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "253280",
+    "name": "KB KBSTAR HealthCare",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "404540",
+    "name": "MIRAE ASSET TIGER KRX Climate Change S",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "368190",
+    "name": "NH-Amundi HANARO K-NewDeal Digital Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "354240",
+    "name": "KB KBSTAR U.S. Preferred Securities ICE TR",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "458030",
+    "name": "Woori WOORI Short-term Government and S",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "483240",
+    "name": "MiraeAsset TIGER NASDAQ 100 Futures",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "496090",
+    "name": "Kiwoom KOSEF Korea Value-up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "291130",
+    "name": "KIM KINDEX MSCI Mexico Synth",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "373790",
+    "name": "Kiwoom KOSEF US Low Volatility Dividend A",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0084D0",
+    "name": "Kiwoom KIWOOM US Tech100 Monthly Targe",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491220",
+    "name": "Hanwha PLUS 200 Total Return",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "227830",
+    "name": "Hanwha ARIRANG KOSPI",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0002C0",
+    "name": "Assetplus ASSETPLUS India Leading Compa",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "488480",
+    "name": "KB RISE Japan Samurai Sector TOP4 Plus",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "429980",
+    "name": "Shinhan SOL Korea-Global Electric Vehicle a",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "332930",
+    "name": "NH-Amundi HANARO 200TR",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "236350",
+    "name": "MiraeAsset TIGER Synth-India Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463640",
+    "name": "Samsung KODEX S&P500 Utilities",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "301400",
+    "name": "Hanwha ARIRANG KOSDAQ150",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "391600",
+    "name": "KIM KINDEX US Green Theme Indxx",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "225050",
+    "name": "MiraeAsset TIGER Synth-EURO STOXX 50 Le",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "234310",
+    "name": "KB KBSTAR V&S Select Value",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261110",
+    "name": "MIRAE ASSET TIGER USD Futures Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "368680",
+    "name": "SAMSUNG KODEX Fn K-NewDeal Digital Plus",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "400590",
+    "name": "Shinhan SOL IHS MARKIT GLOBAL CARBON",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "182490",
+    "name": "MiraeAsset TIGER Synth-IBOXX Short Term",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "492500",
+    "name": "Hana 1Q Hyundai Motor Company Group Bo",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "413930",
+    "name": "Woori WOORI AI ESG Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "465670",
+    "name": "Mirae Asset TIGER U.S. Cash Cow 100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "448570",
+    "name": "VI FOCUS AI Korea Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q530055",
+    "name": "Samsung Securities Samsung Leverage Gold",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "314700",
+    "name": "Nh-amundi Hanaro Agriculture Business",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "498610",
+    "name": "KB RISE India Digital Growth",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266390",
+    "name": "Samsung KODEX Consumer Discretionary",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q500037",
+    "name": "Shinhan Investment Shinhan Leverage Gold",
+    "theme": "gold_commodities",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "497520",
+    "name": "KIM ACE Eli Lilly Value Chain",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "156080",
+    "name": "Samsung KODEX MSCI Korea",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "455960",
+    "name": "KB KBSTAR US Dollar SOFR Active(SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "435040",
+    "name": "KIM KINDEX Bloomberg Global Brand TOP10",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "363510",
+    "name": "Shinhan SOL KIS Short-term MSB",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "138230",
+    "name": "Kiwoom KOSEF USD Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "461910",
+    "name": "Hanwha ARIRANG US Tech 10 Leverage isele",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "281990",
+    "name": "KB KBSTAR Mid Small Cap High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "463690",
+    "name": "Samsung KODEX S&P500 Communication S",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0015K0",
+    "name": "MiraeAsset TIGER US Consumer Trend Active",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "280920",
+    "name": "Hanwha ARIRANG Leading Industry",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "450180",
+    "name": "Samsung KODEX Korea China New Energy V",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "322400",
+    "name": "NH-Amundi HANARO e-Commerce",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "458210",
+    "name": "Kiwoom HEROES CD Active(Synth)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "244670",
+    "name": "Samsung KODEX Value PLUS",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "401590",
+    "name": "NH-Amundi HANARO Global Carbon Futures",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "223190",
+    "name": "Samsung KODEX 200 Intrinsic Value",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "244660",
+    "name": "Samsung KODEX Quality PLUS",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "430500",
+    "name": "Kiwoom KOSEF TIPS KIS",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "159800",
+    "name": "DB MIGHTY K100",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "472720",
+    "name": "Truston TRUSTON Shareholder Value Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "287180",
+    "name": "ARIRANG NASDAQ Technology Sector",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "276650",
+    "name": "KB KBSTAR Global 4th Industry Revolution I",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449680",
+    "name": "MiraeAsset TIGER Synth Korea-China EV",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "238670",
+    "name": "Hanwha ARIRANG Smartbeta Quality Conser",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "375270",
+    "name": "KB KBSTAR Global Data Center Reits NASD",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "376410",
+    "name": "MiraeAsset TIGER Carbon Efficient Green Ne",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "304780",
+    "name": "NH-Amundi HANARO 200 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "225060",
+    "name": "MiraeAsset TIGER Synth-MSCI EM Leverage",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "499150",
+    "name": "Shinhan SOL US S&P500 JPY(H)",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "316300",
+    "name": "KIM KINDEX Singapore REITs",
+    "theme": "real_estate",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "472840",
+    "name": "IBK ITF KS200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "252000",
+    "name": "MIRAE ASSET TIGER 200 EW",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "291890",
+    "name": "Samsung KODEX SGX MSCI EM Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "117690",
+    "name": "MiraeAsset TIGER China",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "460270",
+    "name": "Kiwoom HEROES US Dollar SOFR Active(SY",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "476000",
+    "name": "UNICORN Post IPO Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "310080",
+    "name": "KB KBSTAR MSCI China Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "433220",
+    "name": "Assetplus ASSETPLUS Global Blacksmith Ac",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "489010",
+    "name": "Hanwha PLUS Global AI Infrastructure",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "139290",
+    "name": "MiraeAsset TIGER 200 Consumer Discretionary",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "140580",
+    "name": "KB KBSTAR Prime Industry Securities",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "454180",
+    "name": "Kiwoom KOSEF China Domestic Consumer T",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "270800",
+    "name": "KB KBSTAR KQ High Dividend",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "457930",
+    "name": "BNK BNK Future Strategic Technology Active",
+    "theme": "technology_innovations",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "332940",
+    "name": "NH-Amundi HANARO MSCI Korea TR",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292050",
+    "name": "KB KBSTAR KRX300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "295000",
+    "name": "KB KBSTAR KTB 10Y Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "244620",
+    "name": "Samsung KODEX Momentum PLUS",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "385590",
+    "name": "KIM ESG Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "275280",
+    "name": "SAMSUNG KODEX MSCI Momentum",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "252650",
+    "name": "Samsung KODEX 200 Equalweight",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "450190",
+    "name": "Samsung KODEX Korea China Semiconduct",
+    "theme": "semiconductor",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "140570",
+    "name": "KB KBSTAR Exporter Securities",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "470310",
+    "name": "UNICORN Generative AI Small Giant Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "375770",
+    "name": "Samsung KODEX Carbon Efficient Green Ne",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "225800",
+    "name": "Kiwoom KOSEF Synth USD Futures Lev",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "289260",
+    "name": "MiareAsset TIGER MSCI Korea ESG Leaders",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0007N0",
+    "name": "iMAsset iM ASSET 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "337150",
+    "name": "Samsung KODEX 200exTOP",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "272570",
+    "name": "KB KBSTAR MID-LONG Term KTB Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "250730",
+    "name": "KB KBSTAR China HSCEI(H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "497510",
+    "name": "KIM ACE Global Big Pharma",
+    "theme": "biotech_healthcare",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "449690",
+    "name": "MiraeAsset TIGER Synth Korea-China Semic",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "363570",
+    "name": "Samsung KODEX Active KAP Long Term Kor",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "459790",
+    "name": "Kiwoom HEROES US Growth 30 Active",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395760",
+    "name": "Hanwha ARIRANG ESG Growth Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "496130",
+    "name": "Truston TRUSTON Korea Value-Up Active",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "391670",
+    "name": "Heungkuk HK Best11 Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "277650",
+    "name": "Mirae Asset TIGER KOSPI Mid Cap",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "196030",
+    "name": "KIM KINDEX Japan Leverage (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "230480",
+    "name": "Kiwoom KOSEF Synth USD Futures Inv",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "266550",
+    "name": "Hanwha ARIRANG Mid Cap Low Vol 50",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "429010",
+    "name": "Mirae Asset TIGER NASDAQ Next 100",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "395750",
+    "name": "Hanwha ARIRANG ESG Value Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "289250",
+    "name": "MiraeAsset TIGER MSCI Korea ESG Universal",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491510",
+    "name": "KyoboAXA POWER K-ShareHolder Value Acti",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "424460",
+    "name": "NH-Amundi HANARO Global Water MSCI (Sy",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "407820",
+    "name": "Assetplus ASSETPLUS Korea Platform Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "195920",
+    "name": "MiraeAsset TIGER Synth-Japan (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q570022",
+    "name": "Korea Investment & Securities TRUE leverag",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "289670",
+    "name": "Hanwha ARIRANG KTB 10Y Future",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "400580",
+    "name": "Shinhan SOL S&P CARBON EMISSION(EUA)(",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "438740",
+    "name": "Midas MIDAS KoreaStock Mid/Small-Cap Acti",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q500020",
+    "name": "Shinhan Investment Shinhan Leverage DJIA",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "422260",
+    "name": "KIVAM VITA MZ consumption Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "189400",
+    "name": "Hanwha ARIRANG Synth-MSCI AC World (H)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "304760",
+    "name": "NH-Amundi HANARO KRX300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "108590",
+    "name": "Yurie TREX 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "495750",
+    "name": "NH-Amundi HANARO Korea Value-Up",
+    "theme": "dividend_income",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "253150",
+    "name": "Hanwha ARIRANG 200 Futures Leverage",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "220130",
+    "name": "SHBNPP SMART Synth-China Mainland Smal",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "407300",
+    "name": "NH-Amundi HANARO Golf Theme",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "289040",
+    "name": "Samsung KODEX MSCI ESG Universal",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "261920",
+    "name": "KIM KINDEX Syth-Philippines MSCI",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "279540",
+    "name": "Samsung KODEX Min Vol",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "226380",
+    "name": "KIM KINDEX Korean Culture",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "181480",
+    "name": "KIM KINDEX Synth-Dow Jones US Real Estat",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "491700",
+    "name": "Heungkuk HK KS200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "451670",
+    "name": "KB KBSTAR KTB 30Y Leverage (SYNTH)",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "451150",
+    "name": "Assetplus ASSETPLUS Global Young Age Ac",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "321410",
+    "name": "Samsung KODEX Morningstar Multi-Ast High",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "337120",
+    "name": "Samsung KODEX Fn Multi Factor",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "456200",
+    "name": "Hanwha ARIRANG US Dollar SOFR Active(SY",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "280320",
+    "name": "KIM KINDEX US Internet Synth H",
+    "theme": "internet_communications",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "452440",
+    "name": "KIVAM VITA Value Alpha Active",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0010E0",
+    "name": "KIM ACE FTSE WGBI Korean Government Bo",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "462340",
+    "name": "Assetplus ASSETPLUS Global Dynamic Seni",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "0068M0",
+    "name": "Samsung KODEX US S&P500 Buffer June Ac",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "292500",
+    "name": "Shinhan SMART KRX300",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "145850",
+    "name": "Yurie TREX Fundamental 200",
+    "theme": "broad_market",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q700011",
+    "name": "Hana Financial Investment Hana Leverage C",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q500050",
+    "name": "Shinhan Investment Shinhan Leverage S&P5",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "285690",
+    "name": "Hi Focus ESG Leaders 150",
+    "theme": "esg_clean_energy",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "397420",
+    "name": "KB KBSTAR FKTB 5Y Duration Following",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "432600",
+    "name": "KB KBSTAR KTB 3Y Futures",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q610008",
+    "name": "MERITZ SECURITIES MERITZ LEVERAGE KT",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q570097",
+    "name": "Korea Investment & Securities TRUE S&P Ye",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "215620",
+    "name": "Heungkuk S&P Korea Low Volatility",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q550041",
+    "name": "NH QV US IT Top5 ETN H 41",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "265690",
+    "name": "KIM KINDEX MSCI Russia Synth",
+    "theme": "other",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q700013",
+    "name": "Hana Financial Investment Hana Leverage So",
+    "theme": "financials",
+    "market": "South Korea"
+  },
+  {
+    "symbol": "Q520009",
+    "name": "Daewoo Securities Daewoo Leveraged Crude",
+    "theme": "financials",
+    "market": "South Korea"
+  }
+]

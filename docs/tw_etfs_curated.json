@@ -1,0 +1,218 @@
+[
+  {
+    "symbol": "0052.TW",
+    "code": "0052",
+    "name": "Fubon Taiwan Technology",
+    "theme": "technology_innovations",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00830.TW",
+    "code": "00830",
+    "name": "Cathay PHLX Semiconductor",
+    "theme": "semiconductor",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00929.TW",
+    "code": "00929",
+    "name": "Fuh Hwa Taiwan Technology Dividend Highli",
+    "theme": "technology_innovations",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00927.TW",
+    "code": "00927",
+    "name": "Capital TIP Taiwan Semiconductor Dividend",
+    "theme": "semiconductor",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00712.TW",
+    "code": "00712",
+    "name": "Fuh Hwa FTSE Mortgage REITs",
+    "theme": "real_estate",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00891.TW",
+    "code": "00891",
+    "name": "CTBC Taiwan ESG Leading Semiconductor",
+    "theme": "semiconductor",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00881.TW",
+    "code": "00881",
+    "name": "Cathay Taiwan 5G Plus",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00888.TW",
+    "code": "00888",
+    "name": "SinoPac Taiwan Target Exposure ESG",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00896.TW",
+    "code": "00896",
+    "name": "CTBC TIP Customized Taiwan Green Energy",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00909.TW",
+    "code": "00909",
+    "name": "Cathay Global Digital Payment Services",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00662.TW",
+    "code": "00662",
+    "name": "Fubon NASDAQ 100",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00893.TW",
+    "code": "00893",
+    "name": "Cathay Global Autonomous and Electric Vehi",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00892.TW",
+    "code": "00892",
+    "name": "Fubon Taiwan Core Semi",
+    "theme": "semiconductor",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00757.TW",
+    "code": "00757",
+    "name": "UPAMC NYSE FANG+",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00735.TW",
+    "code": "00735",
+    "name": "Cathay Korea/taiwan IT Premier",
+    "theme": "semiconductor",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00916.TW",
+    "code": "00916",
+    "name": "Cathay Global Top 50 Brands",
+    "theme": "consumer_e_commerce",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00850.TW",
+    "code": "00850",
+    "name": "Yuanta FTSE4Good TIP Taiwan ESG",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00770.TW",
+    "code": "00770",
+    "name": "Cathay S&P North American Technology Sec",
+    "theme": "technology_innovations",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00876.TW",
+    "code": "00876",
+    "name": "Yuanta Global 5G & NexGen Telecommunicat",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00908.TW",
+    "code": "00908",
+    "name": "Fubon Global Dividend REITs and Infrastruct",
+    "theme": "real_estate",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00861.TW",
+    "code": "00861",
+    "name": "Yuanta Global NextGen Communications",
+    "theme": "internet_communications",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00762.TW",
+    "code": "00762",
+    "name": "Yuanta STOXX Global Artificial Intelligence",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00714.TW",
+    "code": "00714",
+    "name": "Capital Dow Jones US Real Estate",
+    "theme": "real_estate",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00737.TW",
+    "code": "00737",
+    "name": "Cathay Nasdaq A.I. & Robotics",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00899.TW",
+    "code": "00899",
+    "name": "Franklin Templeton SinoAm Global Clean En",
+    "theme": "esg_clean_energy",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "00851.TW",
+    "code": "00851",
+    "name": "Taishin Global AI",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "Taiwan",
+    "currency": "TWD"
+  },
+  {
+    "symbol": "020000.TW",
+    "code": "020000",
+    "name": "Fubon Big Apple Total Return Index",
+    "theme": "consumer_e_commerce",
+    "market": "Taiwan",
+    "currency": "TWD"
+  }
+]

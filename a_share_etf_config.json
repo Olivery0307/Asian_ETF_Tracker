@@ -1,0 +1,720 @@
+{
+    "settings": {
+        "start_date": "2025-01-01",
+        "end_date": "2026-12-31",
+        "data_root_dir": "data_ashare"
+    },
+    "benchmark": {
+        "code": "000300",
+        "name": "CSI 300",
+        "market": "cn_index"
+    },
+    "industries": {
+        "gold_commodities": [
+            {
+                "code": "517400",
+                "name": "黄金股票",
+                "currency": "CNY"
+            },
+            {
+                "code": "518880",
+                "name": "黄金ETF",
+                "currency": "CNY"
+            }
+        ],
+        "materials": [
+            {
+                "code": "516150",
+                "name": "稀土基金",
+                "currency": "CNY"
+            },
+            {
+                "code": "515220",
+                "name": "煤炭ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515210",
+                "name": "钢铁ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512400",
+                "name": "有色ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "516570",
+                "name": "石化ETF",
+                "currency": "CNY"
+            }
+        ],
+        "broad_market": [
+            {
+                "code": "510500",
+                "name": "500ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510050",
+                "name": "50ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510900",
+                "name": "恒生中国",
+                "currency": "CNY"
+            },
+            {
+                "code": "560610",
+                "name": "A500指数",
+                "currency": "CNY"
+            },
+            {
+                "code": "563300",
+                "name": "中证2000",
+                "currency": "CNY"
+            },
+            {
+                "code": "512100",
+                "name": "1000ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513500",
+                "name": "标普500",
+                "currency": "CNY"
+            },
+            {
+                "code": "510180",
+                "name": "180ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513600",
+                "name": "恒指ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510300",
+                "name": "300ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510880",
+                "name": "红利ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512720",
+                "name": "计算机",
+                "currency": "CNY"
+            }
+        ],
+        "real_estate": [
+            {
+                "code": "508036",
+                "name": "甬交REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508028",
+                "name": "国家电投",
+                "currency": "CNY"
+            },
+            {
+                "code": "512200",
+                "name": "地产ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "508009",
+                "name": "安徽交控",
+                "currency": "CNY"
+            },
+            {
+                "code": "508056",
+                "name": "普洛斯",
+                "currency": "CNY"
+            },
+            {
+                "code": "508096",
+                "name": "京能国际",
+                "currency": "CNY"
+            },
+            {
+                "code": "508018",
+                "name": "中交REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508086",
+                "name": "河北高速",
+                "currency": "CNY"
+            },
+            {
+                "code": "508008",
+                "name": "铁建REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508031",
+                "name": "城投宽庭",
+                "currency": "CNY"
+            },
+            {
+                "code": "508005",
+                "name": "首创奥莱",
+                "currency": "CNY"
+            },
+            {
+                "code": "508002",
+                "name": "百联消费",
+                "currency": "CNY"
+            },
+            {
+                "code": "508069",
+                "name": "南京交通",
+                "currency": "CNY"
+            },
+            {
+                "code": "508068",
+                "name": "京保REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508001",
+                "name": "浙江杭徽",
+                "currency": "CNY"
+            },
+            {
+                "code": "508007",
+                "name": "山东高速",
+                "currency": "CNY"
+            },
+            {
+                "code": "508077",
+                "name": "华润有巢",
+                "currency": "CNY"
+            },
+            {
+                "code": "508021",
+                "name": "临港REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508027",
+                "name": "东吴苏园",
+                "currency": "CNY"
+            },
+            {
+                "code": "508088",
+                "name": "东久REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508000",
+                "name": "张江REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508066",
+                "name": "苏交REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508058",
+                "name": "厦门安居",
+                "currency": "CNY"
+            },
+            {
+                "code": "508003",
+                "name": "中金联东",
+                "currency": "CNY"
+            },
+            {
+                "code": "508033",
+                "name": "深高REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508022",
+                "name": "津开产园",
+                "currency": "CNY"
+            },
+            {
+                "code": "508006",
+                "name": "首创水务",
+                "currency": "CNY"
+            },
+            {
+                "code": "508098",
+                "name": "京东仓储",
+                "currency": "CNY"
+            },
+            {
+                "code": "508099",
+                "name": "中关村",
+                "currency": "CNY"
+            },
+            {
+                "code": "508011",
+                "name": "物美消费",
+                "currency": "CNY"
+            },
+            {
+                "code": "508026",
+                "name": "电建清源",
+                "currency": "CNY"
+            },
+            {
+                "code": "508017",
+                "name": "金茂商业",
+                "currency": "CNY"
+            },
+            {
+                "code": "508089",
+                "name": "特变REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508048",
+                "name": "外高REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508015",
+                "name": "明阳REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508010",
+                "name": "重庆两江",
+                "currency": "CNY"
+            },
+            {
+                "code": "508097",
+                "name": "建邺REIT",
+                "currency": "CNY"
+            },
+            {
+                "code": "508019",
+                "name": "湖北科投",
+                "currency": "CNY"
+            }
+        ],
+        "biotech_healthcare": [
+            {
+                "code": "515120",
+                "name": "创新药",
+                "currency": "CNY"
+            },
+            {
+                "code": "513060",
+                "name": "恒生医疗",
+                "currency": "CNY"
+            },
+            {
+                "code": "512290",
+                "name": "生物医药",
+                "currency": "CNY"
+            },
+            {
+                "code": "513780",
+                "name": "港股新药",
+                "currency": "CNY"
+            },
+            {
+                "code": "512170",
+                "name": "医疗ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513120",
+                "name": "HK创新药",
+                "currency": "CNY"
+            },
+            {
+                "code": "520500",
+                "name": "恒生新药",
+                "currency": "CNY"
+            },
+            {
+                "code": "517380",
+                "name": "创新药AH",
+                "currency": "CNY"
+            },
+            {
+                "code": "516820",
+                "name": "医疗创新",
+                "currency": "CNY"
+            },
+            {
+                "code": "512010",
+                "name": "医药ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513200",
+                "name": "港股医药",
+                "currency": "CNY"
+            },
+            {
+                "code": "560260",
+                "name": "医疗50",
+                "currency": "CNY"
+            },
+            {
+                "code": "513290",
+                "name": "纳指生物",
+                "currency": "CNY"
+            },
+            {
+                "code": "516080",
+                "name": "创新医药",
+                "currency": "CNY"
+            }
+        ],
+        "technology_innovations": [
+            {
+                "code": "588000",
+                "name": "科创50",
+                "currency": "CNY"
+            },
+            {
+                "code": "513130",
+                "name": "恒生科技",
+                "currency": "CNY"
+            },
+            {
+                "code": "588190",
+                "name": "科创100",
+                "currency": "CNY"
+            },
+            {
+                "code": "515900",
+                "name": "央创ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515000",
+                "name": "科技ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515680",
+                "name": "创新央企",
+                "currency": "CNY"
+            },
+            {
+                "code": "588300",
+                "name": "双创ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "588230",
+                "name": "科创200",
+                "currency": "CNY"
+            }
+        ],
+        "internet_communications": [
+            {
+                "code": "515050",
+                "name": "5GETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513050",
+                "name": "中概互联",
+                "currency": "CNY"
+            },
+            {
+                "code": "513330",
+                "name": "恒生互联",
+                "currency": "CNY"
+            },
+            {
+                "code": "516010",
+                "name": "游戏ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515880",
+                "name": "通信ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513770",
+                "name": "港股互联",
+                "currency": "CNY"
+            },
+            {
+                "code": "512980",
+                "name": "传媒ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "513040",
+                "name": "HK互联网",
+                "currency": "CNY"
+            }
+        ],
+        "financials": [
+            {
+                "code": "512880",
+                "name": "证券ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510230",
+                "name": "金融ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512000",
+                "name": "券商ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "516860",
+                "name": "金融科技",
+                "currency": "CNY"
+            },
+            {
+                "code": "512800",
+                "name": "银行ETF",
+                "currency": "CNY"
+            }
+        ],
+        "esg_clean_energy": [
+            {
+                "code": "516160",
+                "name": "新能源",
+                "currency": "CNY"
+            },
+            {
+                "code": "561910",
+                "name": "电池ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515030",
+                "name": "新汽车",
+                "currency": "CNY"
+            },
+            {
+                "code": "561160",
+                "name": "锂电池",
+                "currency": "CNY"
+            },
+            {
+                "code": "515700",
+                "name": "新能车",
+                "currency": "CNY"
+            },
+            {
+                "code": "588830",
+                "name": "科创新能",
+                "currency": "CNY"
+            },
+            {
+                "code": "516880",
+                "name": "光伏50",
+                "currency": "CNY"
+            },
+            {
+                "code": "512580",
+                "name": "环保ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515790",
+                "name": "光伏ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "516090",
+                "name": "新能源E",
+                "currency": "CNY"
+            },
+            {
+                "code": "562880",
+                "name": "电池基金",
+                "currency": "CNY"
+            }
+        ],
+        "cloud_computing_robotics_ai": [
+            {
+                "code": "515230",
+                "name": "软件ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512930",
+                "name": "AIETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "516510",
+                "name": "云计算",
+                "currency": "CNY"
+            },
+            {
+                "code": "562500",
+                "name": "机器人",
+                "currency": "CNY"
+            },
+            {
+                "code": "515400",
+                "name": "大数据",
+                "currency": "CNY"
+            },
+            {
+                "code": "562930",
+                "name": "软件30",
+                "currency": "CNY"
+            },
+            {
+                "code": "515070",
+                "name": "AI智能",
+                "currency": "CNY"
+            },
+            {
+                "code": "516520",
+                "name": "智能驾驶",
+                "currency": "CNY"
+            },
+            {
+                "code": "515980",
+                "name": "人工智能",
+                "currency": "CNY"
+            }
+        ],
+        "semiconductor": [
+            {
+                "code": "513310",
+                "name": "中韩芯片",
+                "currency": "CNY"
+            },
+            {
+                "code": "588750",
+                "name": "科创芯50",
+                "currency": "CNY"
+            },
+            {
+                "code": "588200",
+                "name": "科创芯片",
+                "currency": "CNY"
+            },
+            {
+                "code": "560780",
+                "name": "半导设备",
+                "currency": "CNY"
+            },
+            {
+                "code": "588290",
+                "name": "芯片科创",
+                "currency": "CNY"
+            },
+            {
+                "code": "561980",
+                "name": "芯片设备",
+                "currency": "CNY"
+            },
+            {
+                "code": "562590",
+                "name": "半导材料",
+                "currency": "CNY"
+            },
+            {
+                "code": "512480",
+                "name": "半导体",
+                "currency": "CNY"
+            },
+            {
+                "code": "588890",
+                "name": "科创芯",
+                "currency": "CNY"
+            },
+            {
+                "code": "516350",
+                "name": "芯片50",
+                "currency": "CNY"
+            },
+            {
+                "code": "516640",
+                "name": "芯片龙头",
+                "currency": "CNY"
+            },
+            {
+                "code": "512760",
+                "name": "芯片ETF",
+                "currency": "CNY"
+            }
+        ],
+        "military_defense": [
+            {
+                "code": "512680",
+                "name": "军工基金",
+                "currency": "CNY"
+            },
+            {
+                "code": "512670",
+                "name": "国防ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512660",
+                "name": "军工ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512710",
+                "name": "军工龙头",
+                "currency": "CNY"
+            }
+        ],
+        "consumer_e_commerce": [
+            {
+                "code": "515170",
+                "name": "食品饮料",
+                "currency": "CNY"
+            },
+            {
+                "code": "515650",
+                "name": "消费50",
+                "currency": "CNY"
+            },
+            {
+                "code": "513970",
+                "name": "恒生消费",
+                "currency": "CNY"
+            },
+            {
+                "code": "513070",
+                "name": "HK消费50",
+                "currency": "CNY"
+            },
+            {
+                "code": "512690",
+                "name": "酒ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "510150",
+                "name": "消费ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "515710",
+                "name": "食品ETF",
+                "currency": "CNY"
+            },
+            {
+                "code": "512600",
+                "name": "必选消费",
+                "currency": "CNY"
+            }
+        ]
+    }
+}

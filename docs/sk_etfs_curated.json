@@ -1,0 +1,578 @@
+[
+  {
+    "symbol": "228790.KS",
+    "code": "228790",
+    "name": "Mirae Asset TIGER Cosmetics",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "364970.KS",
+    "code": "364970",
+    "name": "Mirae Asset TIGER KRX Bio K-New Deal",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "462900.KS",
+    "code": "462900",
+    "name": "Samsungactive KOACT Bio Healthcare Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0008T0.KS",
+    "code": "0008T0",
+    "name": "Shinhan SOL Cosmetics TOP3 Plus",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0000Z0.KS",
+    "code": "0000Z0",
+    "name": "KB RISE Bio TOP10 Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "463050.KS",
+    "code": "463050",
+    "name": "Timefolio TIMEFOLIO Kbio Active",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "261070.KS",
+    "code": "261070",
+    "name": "Mirae Asset TIGER KOSDAQ150 Biotech",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "453640.KS",
+    "code": "453640",
+    "name": "Samsung KODEX S&P500 Health Care",
+    "theme": "biotech_healthcare",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "487230.KS",
+    "code": "487230",
+    "name": "SAMSUNG KODEX US AI Electric Power Cor",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "487240.KS",
+    "code": "487240",
+    "name": "SAMSUNG KODEX AI Electric Power Core Fa",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "483320.KS",
+    "code": "483320",
+    "name": "KIM ACE Nvidia Value Chain Active",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0048K0.KS",
+    "code": "0048K0",
+    "name": "Samsung KODEX China Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0053L0.KS",
+    "code": "0053L0",
+    "name": "MiraeAsset TIGER China Humanoid Robot",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "493810.KS",
+    "code": "493810",
+    "name": "MiraeAsset TIGER US AI Big Tech 10 Target",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "491010.KS",
+    "code": "491010",
+    "name": "MIRAE ASSET TIGER GLOBAL AI INFRA ACT",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "483280.KS",
+    "code": "483280",
+    "name": "Samsung KODEX US AI Tech TOP10+15% Pr",
+    "theme": "cloud_computing_robotics_ai",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "266410.KS",
+    "code": "266410",
+    "name": "Samsung KODEX Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "479730.KS",
+    "code": "479730",
+    "name": "MiraeAsset TIGRT India Billion Consumer",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "150460.KS",
+    "code": "150460",
+    "name": "MiraeAsset TIGER China Consumer",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "453630.KS",
+    "code": "453630",
+    "name": "Samsung KODEX S&P500 Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "237440.KS",
+    "code": "237440",
+    "name": "Mirae Asset TIGER Consumer Goods Balance",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "139280.KS",
+    "code": "139280",
+    "name": "MiraeAsset TIGER Consumer Staples",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "453660.KS",
+    "code": "453660",
+    "name": "Samsung KODEX S&P500 Consumer Discreti",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "494180.KS",
+    "code": "494180",
+    "name": "Timefolio TIMEFOLIO Global Consumer Tren",
+    "theme": "consumer_e_commerce",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "462330.KS",
+    "code": "462330",
+    "name": "Samsung KODEX Secondary Battery Industr",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "412570.KS",
+    "code": "412570",
+    "name": "Miraeasset TIGER KRX Secondary Battery K-",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "305720.KS",
+    "code": "305720",
+    "name": "Samsung KODEX Secondary Battery Industry",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "462010.KS",
+    "code": "462010",
+    "name": "Mirae Asset TIGER Secondary Battery Material",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "364980.KS",
+    "code": "364980",
+    "name": "Mirae Asset TIGER KRX Secondary Battery K",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "457480.KS",
+    "code": "457480",
+    "name": "KIM ACE Tesla Value Chain Active",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "461950.KS",
+    "code": "461950",
+    "name": "Samsung KODEX Secondary Battery Core M",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "371460.KS",
+    "code": "371460",
+    "name": "MiraeAsset TIGER China Electric Vehicle Sol",
+    "theme": "esg_clean_energy",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "379810.KS",
+    "code": "379810",
+    "name": "Samsung KODEX US NASDAQ100 Total Return",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "367760.KS",
+    "code": "367760",
+    "name": "KB KBSTAR Fn5G Tech",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "426030.KS",
+    "code": "426030",
+    "name": "Timefolio TIMEFOLIO US NASDAQ100 Active",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "486290.KS",
+    "code": "486290",
+    "name": "TIGER US Nasdaq100+15% Premium Daily Opt",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0015B0.KS",
+    "code": "0015B0",
+    "name": "SamsungActive KoAct US Nasdaq Growth A",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "494300.KS",
+    "code": "494300",
+    "name": "Samsung KODEX US NASDAQ100 Daily Cov",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "133690.KS",
+    "code": "133690",
+    "name": "MiraeAsset TIGER Nasdaq 100",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "367380.KS",
+    "code": "367380",
+    "name": "KIM KINDEX NASDAQ100",
+    "theme": "internet_communications",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "117700.KS",
+    "code": "117700",
+    "name": "Samsung KODEX Constructions",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0080G0.KS",
+    "code": "0080G0",
+    "name": "Samsung KODEX KDefense TOP10",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "139220.KS",
+    "code": "139220",
+    "name": "MiraeAsset TIGER 200 Constructions",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "494670.KS",
+    "code": "494670",
+    "name": "MiraeAsset TIGER Shipbuilding TOP10",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "449450.KS",
+    "code": "449450",
+    "name": "Hanwha ARIRANG K-Defense Industry Fn",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "466920.KS",
+    "code": "466920",
+    "name": "Shinhan SOL Shipbuilding TOP3 Plus",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "463250.KS",
+    "code": "463250",
+    "name": "MiraeAsset TIGER K-Defense Industry&Space",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "421320.KS",
+    "code": "421320",
+    "name": "Hanwha ARIRANG iSelect Aerospace&UAM",
+    "theme": "military_defense",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "329200.KS",
+    "code": "329200",
+    "name": "Mirae Asset TIGER Real Estate Infra High Div",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "476800.KS",
+    "code": "476800",
+    "name": "KODEX Korea REITs Infra",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0086B0.KS",
+    "code": "0086B0",
+    "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "352540.KS",
+    "code": "352540",
+    "name": "Samsung KODEX TSE Japan Real Estate",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "182480.KS",
+    "code": "182480",
+    "name": "MiraeAsset TIGER Synth-MSCI US REIT (H)",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "429740.KS",
+    "code": "429740",
+    "name": "Hanwha ARIRANG Fn K-REITs",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0086C0.KS",
+    "code": "0086C0",
+    "name": "MiraeAsset TIGER REITs Real Estate Infrastr",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "352560.KS",
+    "code": "352560",
+    "name": "Samsung DJI US Real Estate",
+    "theme": "real_estate",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "396500.KS",
+    "code": "396500",
+    "name": "MiraeAsset TIGER Fn Semiconductor TOP 10",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "395270.KS",
+    "code": "395270",
+    "name": "NH-Amundi HANARO K-Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "091160.KS",
+    "code": "091160",
+    "name": "Samsung KODEX Semicon",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "395160.KS",
+    "code": "395160",
+    "name": "Samsung KODEX Fn System Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "381180.KS",
+    "code": "381180",
+    "name": "MiraeAsset TIGER US PHLX Semiconductor",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "455850.KS",
+    "code": "455850",
+    "name": "Shinhan SOL Semiconductor Materials & Eq",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "471990.KS",
+    "code": "471990",
+    "name": "KODEX AI Semiconductor Core Equipment",
+    "theme": "semiconductor",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "371160.KS",
+    "code": "371160",
+    "name": "MIRAE ASSET TIGER China Hang Seng TECH",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "465580.KS",
+    "code": "465580",
+    "name": "KIM ACE US Big Tech Top7 Plus",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "381170.KS",
+    "code": "381170",
+    "name": "MiraeAsset TIGER US Tech Top10 INDXX",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "0047A0.KS",
+    "code": "0047A0",
+    "name": "MiraeAsset TIGER China Tech TOP10",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "471780.KS",
+    "code": "471780",
+    "name": "MiraeAsset TIGER Korea Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "491620.KS",
+    "code": "491620",
+    "name": "KB RISE US Tech 100 Daily Partial Covered C",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "444200.KS",
+    "code": "444200",
+    "name": "Shinhan SOL KEDI Mega Tech Active",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "472160.KS",
+    "code": "472160",
+    "name": "MiraeAsset TIGER US Tech TOP10 Indxx(H)",
+    "theme": "technology_innovations",
+    "market": "South Korea",
+    "currency": "KRW"
+  },
+  {
+    "symbol": "140710.KS",
+    "code": "140710",
+    "name": "Samsung KODEX Transportation",
+    "theme": "transportation",
+    "market": "South Korea",
+    "currency": "KRW"
+  }
+]

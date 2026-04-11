@@ -1,0 +1,73 @@
+market,theme,code,name,currency
+South Korea,biotech_healthcare,228790,Mirae Asset TIGER Cosmetics,KRW
+South Korea,biotech_healthcare,364970,Mirae Asset TIGER KRX Bio K-New Deal,KRW
+South Korea,biotech_healthcare,462900,Samsungactive KOACT Bio Healthcare Active,KRW
+South Korea,biotech_healthcare,0008T0,Shinhan SOL Cosmetics TOP3 Plus,KRW
+South Korea,biotech_healthcare,0000Z0,KB RISE Bio TOP10 Active,KRW
+South Korea,biotech_healthcare,463050,Timefolio TIMEFOLIO Kbio Active,KRW
+South Korea,biotech_healthcare,261070,Mirae Asset TIGER KOSDAQ150 Biotech,KRW
+South Korea,biotech_healthcare,453640,Samsung KODEX S&P500 Health Care,KRW
+South Korea,cloud_computing_robotics_ai,487230,SAMSUNG KODEX US AI Electric Power Cor,KRW
+South Korea,cloud_computing_robotics_ai,487240,SAMSUNG KODEX AI Electric Power Core Fa,KRW
+South Korea,cloud_computing_robotics_ai,483320,KIM ACE Nvidia Value Chain Active,KRW
+South Korea,cloud_computing_robotics_ai,0048K0,Samsung KODEX China Humanoid Robot,KRW
+South Korea,cloud_computing_robotics_ai,0053L0,MiraeAsset TIGER China Humanoid Robot,KRW
+South Korea,cloud_computing_robotics_ai,493810,MiraeAsset TIGER US AI Big Tech 10 Target,KRW
+South Korea,cloud_computing_robotics_ai,491010,MIRAE ASSET TIGER GLOBAL AI INFRA ACT,KRW
+South Korea,cloud_computing_robotics_ai,483280,Samsung KODEX US AI Tech TOP10+15% Pr,KRW
+South Korea,consumer_e_commerce,266410,Samsung KODEX Consumer Staples,KRW
+South Korea,consumer_e_commerce,479730,MiraeAsset TIGRT India Billion Consumer,KRW
+South Korea,consumer_e_commerce,150460,MiraeAsset TIGER China Consumer,KRW
+South Korea,consumer_e_commerce,453630,Samsung KODEX S&P500 Consumer Staples,KRW
+South Korea,consumer_e_commerce,237440,Mirae Asset TIGER Consumer Goods Balance,KRW
+South Korea,consumer_e_commerce,139280,MiraeAsset TIGER Consumer Staples,KRW
+South Korea,consumer_e_commerce,453660,Samsung KODEX S&P500 Consumer Discreti,KRW
+South Korea,consumer_e_commerce,494180,Timefolio TIMEFOLIO Global Consumer Tren,KRW
+South Korea,esg_clean_energy,462330,Samsung KODEX Secondary Battery Industr,KRW
+South Korea,esg_clean_energy,412570,Miraeasset TIGER KRX Secondary Battery K-,KRW
+South Korea,esg_clean_energy,305720,Samsung KODEX Secondary Battery Industry,KRW
+South Korea,esg_clean_energy,462010,Mirae Asset TIGER Secondary Battery Material,KRW
+South Korea,esg_clean_energy,364980,Mirae Asset TIGER KRX Secondary Battery K,KRW
+South Korea,esg_clean_energy,457480,KIM ACE Tesla Value Chain Active,KRW
+South Korea,esg_clean_energy,461950,Samsung KODEX Secondary Battery Core M,KRW
+South Korea,esg_clean_energy,371460,MiraeAsset TIGER China Electric Vehicle Sol,KRW
+South Korea,internet_communications,379810,Samsung KODEX US NASDAQ100 Total Return,KRW
+South Korea,internet_communications,367760,KB KBSTAR Fn5G Tech,KRW
+South Korea,internet_communications,426030,Timefolio TIMEFOLIO US NASDAQ100 Active,KRW
+South Korea,internet_communications,486290,TIGER US Nasdaq100+15% Premium Daily Opt,KRW
+South Korea,internet_communications,0015B0,SamsungActive KoAct US Nasdaq Growth A,KRW
+South Korea,internet_communications,494300,Samsung KODEX US NASDAQ100 Daily Cov,KRW
+South Korea,internet_communications,133690,MiraeAsset TIGER Nasdaq 100,KRW
+South Korea,internet_communications,367380,KIM KINDEX NASDAQ100,KRW
+South Korea,military_defense,117700,Samsung KODEX Constructions,KRW
+South Korea,military_defense,0080G0,Samsung KODEX KDefense TOP10,KRW
+South Korea,military_defense,139220,MiraeAsset TIGER 200 Constructions,KRW
+South Korea,military_defense,494670,MiraeAsset TIGER Shipbuilding TOP10,KRW
+South Korea,military_defense,449450,Hanwha ARIRANG K-Defense Industry Fn,KRW
+South Korea,military_defense,466920,Shinhan SOL Shipbuilding TOP3 Plus,KRW
+South Korea,military_defense,463250,MiraeAsset TIGER K-Defense Industry&Space,KRW
+South Korea,military_defense,421320,Hanwha ARIRANG iSelect Aerospace&UAM,KRW
+South Korea,real_estate,329200,Mirae Asset TIGER Real Estate Infra High Div,KRW
+South Korea,real_estate,476800,KODEX Korea REITs Infra,KRW
+South Korea,real_estate,0086B0,MiraeAsset TIGER REITs Real Estate Infrastr,KRW
+South Korea,real_estate,352540,Samsung KODEX TSE Japan Real Estate,KRW
+South Korea,real_estate,182480,MiraeAsset TIGER Synth-MSCI US REIT (H),KRW
+South Korea,real_estate,429740,Hanwha ARIRANG Fn K-REITs,KRW
+South Korea,real_estate,0086C0,MiraeAsset TIGER REITs Real Estate Infrastr,KRW
+South Korea,real_estate,352560,Samsung DJI US Real Estate,KRW
+South Korea,semiconductor,396500,MiraeAsset TIGER Fn Semiconductor TOP 10,KRW
+South Korea,semiconductor,395270,NH-Amundi HANARO K-Semiconductor,KRW
+South Korea,semiconductor,091160,Samsung KODEX Semicon,KRW
+South Korea,semiconductor,395160,Samsung KODEX Fn System Semiconductor,KRW
+South Korea,semiconductor,381180,MiraeAsset TIGER US PHLX Semiconductor,KRW
+South Korea,semiconductor,455850,Shinhan SOL Semiconductor Materials & Eq,KRW
+South Korea,semiconductor,471990,KODEX AI Semiconductor Core Equipment,KRW
+South Korea,technology_innovations,371160,MIRAE ASSET TIGER China Hang Seng TECH,KRW
+South Korea,technology_innovations,465580,KIM ACE US Big Tech Top7 Plus,KRW
+South Korea,technology_innovations,381170,MiraeAsset TIGER US Tech Top10 INDXX,KRW
+South Korea,technology_innovations,0047A0,MiraeAsset TIGER China Tech TOP10,KRW
+South Korea,technology_innovations,471780,MiraeAsset TIGER Korea Tech Active,KRW
+South Korea,technology_innovations,491620,KB RISE US Tech 100 Daily Partial Covered C,KRW
+South Korea,technology_innovations,444200,Shinhan SOL KEDI Mega Tech Active,KRW
+South Korea,technology_innovations,472160,MiraeAsset TIGER US Tech TOP10 Indxx(H),KRW
+South Korea,transportation,140710,Samsung KODEX Transportation,KRW
