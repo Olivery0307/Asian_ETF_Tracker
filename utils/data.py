@@ -5,7 +5,7 @@ Data-loading and computation helpers shared across all pages.
 import os
 import pandas as pd
 
-from utils.config import STOCK_SPLITS, EMERGING_DATA_ROOT
+from utils.config import STOCK_SPLITS, EMERGING_DATA_ROOT, _data
 
 # ── Coverage thresholds ───────────────────────────────────────────────────────
 # ETF must span this range to appear in main dashboards (filters newly-listed ones)
@@ -45,7 +45,7 @@ def get_data_for_industry(industry_key, config, selected_currencies, start_date,
     Load benchmark + ETFs for one industry, filtered by currency and date range.
     Returns (price_df, volume_df, stats).
     """
-    root_dir   = config['settings']['data_root_dir']
+    root_dir   = _data(config['settings']['data_root_dir'])
     bench_code = config['benchmark']['code']
     bench_path = os.path.join(root_dir, "benchmark", f"{bench_code}.csv")
     bench_df   = load_csv_data(bench_path, etf_code=bench_code)
@@ -119,7 +119,7 @@ def get_data_for_industry(industry_key, config, selected_currencies, start_date,
 
 def get_all_etf_returns(config, start_date, end_date):
     """Return (list_of_etf_dicts, bench_return) across all industries."""
-    root_dir   = config['settings']['data_root_dir']
+    root_dir   = _data(config['settings']['data_root_dir'])
     bench_code = config['benchmark']['code']
     bench_df   = load_csv_data(
         os.path.join(root_dir, "benchmark", f"{bench_code}.csv"), etf_code=bench_code
@@ -165,7 +165,7 @@ def get_all_etf_returns(config, start_date, end_date):
 
 def get_industry_avg_returns(config, start_date, end_date):
     """Return (list_of_industry_dicts, bench_return)."""
-    root_dir   = config['settings']['data_root_dir']
+    root_dir   = _data(config['settings']['data_root_dir'])
     bench_code = config['benchmark']['code']
     bench_df   = load_csv_data(
         os.path.join(root_dir, "benchmark", f"{bench_code}.csv"), etf_code=bench_code
@@ -215,7 +215,7 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
         bench_df     — pd.Series, index=window labels, values=bench return
         rel_df       — pd.DataFrame, same shape as industry_df but values = industry - bench (relative)
     """
-    root_dir   = config['settings']['data_root_dir']
+    root_dir   = _data(config['settings']['data_root_dir'])
     bench_code = config['benchmark']['code']
     bench_path = os.path.join(root_dir, "benchmark", f"{bench_code}.csv")
     bench_full = load_csv_data(bench_path, etf_code=bench_code)
@@ -273,7 +273,7 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
 
 def get_industry_volume_series(config, start_date, end_date):
     """Return {industry_label: pd.Series(daily total volume)}."""
-    root_dir = config['settings']['data_root_dir']
+    root_dir = _data(config['settings']['data_root_dir'])
     result   = {}
     for industry_key, etf_list in config['industries'].items():
         industry_path = os.path.join(root_dir, industry_key)
@@ -309,7 +309,7 @@ def get_comparison_data(configs, selected_etfs, start_date, end_date):
         code     = item['code']
         name     = item['name']
         config   = configs[market]
-        root_dir = config['settings']['data_root_dir']
+        root_dir = _data(config['settings']['data_root_dir'])
 
         if code == config['benchmark']['code']:
             filepath = os.path.join(root_dir, "benchmark", f"{code}.csv")
@@ -365,7 +365,7 @@ def get_pair_data(configs, asset_a, asset_b, start_date, end_date):
         market = asset['market']
         code   = asset['code']
         config = configs[market]
-        root   = config['settings']['data_root_dir']
+        root   = _data(config['settings']['data_root_dir'])
         fp     = (
             os.path.join(root, "benchmark", f"{code}.csv")
             if code == config['benchmark']['code']

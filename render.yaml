@@ -1,0 +1,49 @@
+# Render deployment configuration
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Services:
+#   1. rays-etf-app   — Streamlit web dashboard (Web Service)
+#   2. rays-collector — Daily data collection (Cron Job)
+#
+# Persistent Disk (/data, 1 GB) is attached to both services so they
+# share the same CSV data files.
+#
+# Deploy: connect this repo in the Render dashboard and select "Blueprint".
+
+services:
+
+  # ── 1. Web dashboard ────────────────────────────────────────────────────────
+  - type: web
+    name: rays-etf-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    region: singapore        # closest free-tier region to HK
+    plan: free
+    disk:
+      name: etf-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: DATA_ROOT
+        value: /data
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: "true"
+
+  # ── 2. Daily data collector (Cron Job) ──────────────────────────────────────
+  - type: cron
+    name: rays-collector
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    region: singapore
+    plan: free
+    # Tue–Sat at 08:00 SGT (= 08:00 UTC+8).
+    # Render cron uses UTC: 08:00 SGT = 00:00 UTC.
+    schedule: "0 0 * * 2-6"
+    command: python data_collection.py
+    disk:
+      name: etf-data          # same disk name = Render mounts the same volume
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: DATA_ROOT
+        value: /data

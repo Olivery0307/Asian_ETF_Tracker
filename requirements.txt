@@ -1,10 +1,27 @@
-matplotlib
-seaborn
-akshare
-pandas
-numpy
-streamlit
-plotly
-yfinance
-schedule
-pytrends
+# ETF Dashboard — pinned production dependencies
+# To update a package: pip install -U <pkg> then re-pin here
+
+# ── Web app ───────────────────────────────────────────────────────────────────
+streamlit==1.53.1
+plotly==6.5.2
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+pandas==2.3.3
+numpy==2.4.1
+yfinance==1.1.0
+akshare==1.18.20
+
+# ── Analysis ─────────────────────────────────────────────────────────────────
+scipy==1.17.0
+statsmodels==0.14.6
+
+# ── Scheduler ────────────────────────────────────────────────────────────────
+schedule==1.2.2
+
+# ── PDF reports ──────────────────────────────────────────────────────────────
+reportlab==4.4.10
+
+# ── Indirect but required ────────────────────────────────────────────────────
+requests==2.32.5
+lxml==6.0.2
+beautifulsoup4==4.14.3

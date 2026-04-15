@@ -1,31 +1,34 @@
 """
 Automated scheduler for daily ETF data collection.
 Runs Tuesday to Saturday to collect data up to the last trading day.
+
+NOTE: On Render, the cron schedule is managed externally via render.yaml —
+this file is only used when running the scheduler locally.
 """
 
+import os
 import schedule
 import time
 import logging
-from datetime import datetime
-from data_collection import run_collection
+from datetime import datetime, timezone
+from data_collection import run_collection, _data
 
-# Setup logging
+# Log file goes to DATA_ROOT so it lands on the persistent disk on Render
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('scheduler.log'),
+        logging.FileHandler(_data('scheduler.log')),
         logging.StreamHandler()
     ]
 )
 
 def should_run_today():
     """
-    Check if the script should run today.
-    Runs on Tuesday (1), Wednesday (2), Thursday (3), Friday (4), Saturday (5).
-    Skips Sunday (6) and Monday (0).
+    Runs on Tuesday–Saturday UTC (covers Mon–Fri HKT market close).
+    weekday(): Mon=0 ... Sun=6
     """
-    weekday = datetime.now().weekday()
+    weekday = datetime.now(timezone.utc).weekday()
     return weekday in [1, 2, 3, 4, 5]
 
 def scheduled_job():
@@ -34,7 +37,7 @@ def scheduled_job():
     """
     if should_run_today():
         logging.info("=" * 60)
-        logging.info(f"Starting scheduled data collection at {datetime.now()}")
+        logging.info(f"Starting scheduled data collection at {datetime.now(timezone.utc)} UTC")
         logging.info("=" * 60)
 
         try:
@@ -43,7 +46,7 @@ def scheduled_job():
         except Exception as e:
             logging.error(f"Error during scheduled collection: {e}")
     else:
-        day_name = datetime.now().strftime('%A')
+        day_name = datetime.now(timezone.utc).strftime('%A')
         logging.info(f"Skipping collection today ({day_name}) - Only runs Tuesday to Saturday")
 
 def run_scheduler():

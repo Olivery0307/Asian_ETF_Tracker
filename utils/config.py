@@ -7,6 +7,15 @@ import json
 import os
 import streamlit as st
 
+# ── Data root ─────────────────────────────────────────────────────────────────
+# On Render, set DATA_ROOT=/data (persistent disk mount point).
+# Locally defaults to the project directory.
+DATA_ROOT = os.getenv("DATA_ROOT", ".")
+
+def _data(path: str) -> str:
+    """Resolve a data-relative path under DATA_ROOT."""
+    return os.path.join(DATA_ROOT, path)
+
 # ── File paths ────────────────────────────────────────────────────────────────
 CONFIG_FILES = {
     "Hong Kong":   "etf_config.json",
@@ -15,7 +24,7 @@ CONFIG_FILES = {
     "South Korea": "sk_etf_config.json",
 }
 EMERGING_CONFIG_FILE = "a_share_etf_emerging.json"
-EMERGING_DATA_ROOT   = "data_ashare"
+EMERGING_DATA_ROOT   = _data("data_ashare")
 
 # Stock split adjustments: {ETF_CODE: [(split_date, ratio)]}
 # NOTE: Data from akshare is already split-adjusted (qfq), so we don't need to adjust it

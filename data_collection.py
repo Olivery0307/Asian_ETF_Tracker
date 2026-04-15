@@ -7,6 +7,22 @@ import akshare as ak
 from datetime import datetime, timedelta
 import logging
 
+# ── Paths ─────────────────────────────────────────────────────────────────────
+# DATA_ROOT: where CSV data directories live.
+# On Render, set DATA_ROOT=/data (persistent disk). Locally defaults to ".".
+DATA_ROOT = os.getenv("DATA_ROOT", ".")
+
+# APP_ROOT: directory containing config JSON files (same as this script).
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+def _data(path: str) -> str:
+    """Resolve a path under DATA_ROOT."""
+    return os.path.join(DATA_ROOT, path)
+
+def _app(path: str) -> str:
+    """Resolve a path under APP_ROOT (config files, etc.)."""
+    return os.path.join(APP_ROOT, path)
+
 CONFIG_FILES = [
     "etf_config.json",
     "a_share_etf_config.json",
@@ -14,14 +30,14 @@ CONFIG_FILES = [
     "sk_etf_config.json",
 ]
 EMERGING_CONFIG_FILE = "a_share_etf_emerging.json"
-EMERGING_DATA_ROOT = "data_ashare"  # Shares the same data directory as A-Share
+EMERGING_DATA_ROOT = _data("data_ashare")
 
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('data_collection.log'),
+        logging.FileHandler(_data('data_collection.log')),
         logging.StreamHandler()
     ]
 )
@@ -319,12 +335,13 @@ def run_collection(use_dynamic_dates=True):
     """
     for config_file in CONFIG_FILES:
         logging.info(f"\n=== Processing Config: {config_file} ===")
-        if not os.path.exists(config_file):
-            logging.warning(f"Config file {config_file} not found. Skipping.")
+        config_path = _app(config_file)
+        if not os.path.exists(config_path):
+            logging.warning(f"Config file {config_path} not found. Skipping.")
             continue
 
-        config = load_config(config_file)
-        root_dir = config['settings']['data_root_dir']
+        config = load_config(config_path)
+        root_dir = _data(config['settings']['data_root_dir'])
         start_date = config['settings']['start_date']
 
         # Use dynamic end date (yesterday/last Friday) or config end_date
@@ -369,9 +386,10 @@ def run_collection(use_dynamic_dates=True):
                 time.sleep(1)
 
     # 3. Fetch Emerging A-Share ETFs
-    if os.path.exists(EMERGING_CONFIG_FILE):
+    emerging_config_path = _app(EMERGING_CONFIG_FILE)
+    if os.path.exists(emerging_config_path):
         logging.info(f"\n=== Processing Emerging Config: {EMERGING_CONFIG_FILE} ===")
-        emerging_config = load_config(EMERGING_CONFIG_FILE)
+        emerging_config = load_config(emerging_config_path)
         end_date = get_last_trading_day() if use_dynamic_dates else datetime.now().strftime('%Y-%m-%d')
 
         for industry_key, etf_list in emerging_config['industries'].items():

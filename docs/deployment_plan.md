@@ -204,10 +204,15 @@ file-system persistence complexity and makes the scheduler stateless.
 
 ## Pre-deployment Checklist
 
-- [ ] `requirements.txt` is complete and pinned (`pip freeze > requirements.txt`)
-- [ ] `data/`, `data_ashare/`, `data_tw/`, `data_sk/` are in `.gitignore` (already done)
-- [ ] `archive/` is in `.gitignore` (already done)
-- [ ] `utils/config.py` reads data root from env var `DATA_ROOT`
-- [ ] `scheduler.py` uses UTC times, not local machine time
-- [ ] App tested with `streamlit run app.py --server.headless true`
-- [ ] Secrets (API keys, if any added later) stored in env vars, not hardcoded
+- [x] `requirements.txt` is complete and pinned
+- [x] `data/`, `data_ashare/`, `data_tw/`, `data_sk/` are in `.gitignore`
+- [x] `archive/`, `reports/` are in `.gitignore`
+- [x] `utils/config.py` reads data root from env var `DATA_ROOT` (defaults to `.` locally)
+- [x] `utils/data.py` resolves all CSV paths via `_data()` helper
+- [x] `data_collection.py` resolves data dirs via `_data()`, config files via `_app()`
+- [x] `scheduler.py` uses UTC (`datetime.now(timezone.utc)`), log written to `DATA_ROOT`
+- [x] `Dockerfile` built, sets `DATA_ROOT=/data`, exposes port 8501
+- [x] `render.yaml` defines web service + cron job sharing a 1 GB persistent disk
+- [x] No hardcoded secrets or local absolute paths in app code (`docs/` scripts are local-only tools)
+- [ ] Run `python data_collection.py` on Render after first deploy to seed the disk with data
+- [ ] (Optional) Add `st.secrets`-based password in `app.py` if team access needs gating
