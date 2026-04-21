@@ -1,0 +1,30 @@
+# Excludes files from gcloud builds submit to speed up image builds.
+# Data, venv, and docs don't belong in the Docker image.
+
+.gcloudignore
+.gitignore
+.git/
+
+# Data directories (live in GCS, not the image)
+data/
+data_ashare/
+data_tw/
+data_sk/
+
+# Python env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Docs and local tools (not needed in container)
+docs/
+archive/
+report/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

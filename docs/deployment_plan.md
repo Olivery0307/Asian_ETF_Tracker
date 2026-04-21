@@ -70,7 +70,7 @@ Render Cron Job  ── runs daily at 8am HKT ─────────┘
 
 ---
 
-## Option B — Google Cloud Run + Cloud Scheduler
+## Option B — Google Cloud Run + Cloud Scheduler ✅ (Active)
 
 **Best for:** No sleep/cold-start issues, native cron, scales to zero when idle.
 
@@ -78,65 +78,79 @@ Render Cron Job  ── runs daily at 8am HKT ─────────┘
 
 | Role | GCP service | Free tier |
 |------|------------|-----------|
-| Streamlit app | **Cloud Run** | 2M requests/month, 360K GB-sec compute |
+| Streamlit app | **Cloud Run** (gen2) | 2M requests/month, 360K GB-sec compute |
 | Daily scheduler | **Cloud Scheduler** | 3 jobs free |
-| CSV storage | **Cloud Storage** (GCS) bucket | 5 GB free (US regions) |
+| CSV storage | **Cloud Storage** (GCS) | 5 GB free (US regions) |
+| Docker images | **Artifact Registry** | 0.5 GB free |
 
 ### Architecture
 
 ```
-GitHub repo
+GitHub repo (no data/ dirs)
     │
-    ▼ (Cloud Build trigger on push)
-Docker image  ──▶  Artifact Registry  ──▶  Cloud Run (app)
-                                                  │ reads/writes
-Cloud Scheduler  ──▶  Cloud Run (collector job)  ─┘
-                       (or Cloud Run Jobs)         ▼
-                                             GCS bucket
-                                             gs://rays-etf-data/
+    ▼ docker build + push
+Artifact Registry  ──▶  Cloud Run app (gen2)
+                              │ gcsfuse mounts /data
+                         GCS bucket gs://rays-etf-data/
+                              ▲
+Cloud Scheduler (daily 08:00 HKT)
+    │
+    ▼
+Cloud Run Job (rays-collector)
+    gcsfuse mounts /data → python data_collection.py → writes CSVs → GCS
 ```
 
-### Steps
+**Key design:** GCS bucket is FUSE-mounted at `/data` inside the container via `gcsfuse`.
+No Python code changes needed — all existing `_data(path)` calls resolve normally.
+Requires Cloud Run **gen2** execution environment to allow FUSE mounts.
 
-1. **GCS bucket** — `gsutil mb gs://rays-etf-data` in `asia-east1` (Hong Kong region)
-2. **Adapt data paths** — replace local CSV reads with `gcsfs` or mount via Cloud Storage FUSE:
-   ```python
-   # utils/config.py
-   import os
-   DATA_BUCKET = os.getenv("GCS_BUCKET", "")  # e.g. "rays-etf-data"
-   ```
-   Or simpler: mount GCS as a FUSE volume in the Cloud Run container (requires `--execution-environment gen2`)
-3. **Dockerfile**
-   ```dockerfile
-   FROM python:3.12-slim
-   WORKDIR /app
-   COPY requirements.txt .
-   RUN pip install --no-cache-dir -r requirements.txt
-   COPY . .
-   CMD streamlit run app.py --server.port $PORT --server.address 0.0.0.0
-   ```
-4. **Deploy app**
-   ```bash
-   gcloud run deploy rays-etf-app \
-     --source . --region asia-east1 \
-     --allow-unauthenticated \
-     --set-env-vars GCS_BUCKET=rays-etf-data
-   ```
-5. **Deploy collector as Cloud Run Job**
-   ```bash
-   gcloud run jobs create rays-collector \
-     --image gcr.io/PROJECT/rays-etf-app \
-     --command "python data_collection.py" \
-     --region asia-east1
-   ```
-6. **Cloud Scheduler** — trigger collector job daily:
-   ```bash
-   gcloud scheduler jobs create http rays-daily \
-     --schedule "0 8 * * 2-6" \
-     --time-zone "Asia/Hong_Kong" \
-     --uri "https://REGION-run.googleapis.com/apis/run.googleapis.com/v1/namespaces/PROJECT/jobs/rays-collector:run" \
-     --oauth-service-account-email SA@PROJECT.iam.gserviceaccount.com
-   ```
+### Deploy
+
+Everything is scripted. Edit the config block at the top of [gcp-deploy.sh](../gcp-deploy.sh)
+then run it once:
+
+```bash
+# 1. Install gcloud CLI: https://cloud.google.com/sdk/docs/install
+# 2. Authenticate
+gcloud auth login
+gcloud auth application-default login
+
+# 3. Create a GCP project at console.cloud.google.com and attach a billing account
+#    (required to unlock Cloud Run — stays within free tier)
+
+# 4. Edit PROJECT_ID and BUCKET_NAME in gcp-deploy.sh, then:
+chmod +x gcp-deploy.sh
+./gcp-deploy.sh
+```
+
+The script does all 9 steps: enable APIs → create bucket → build image → deploy app
+→ deploy collector job → seed data → create daily scheduler.
+
+### Updating after code changes
+
+```bash
+PROJECT_ID="rays-etf"
+REGION="asia-east1"
+IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/rays/rays-etf-app"
+
+docker build -t $IMAGE:latest . && docker push $IMAGE:latest
+gcloud run deploy rays-etf-app --image $IMAGE:latest --region $REGION
+```
+
+### Adding team auth (IAP)
+
+To restrict the app to specific Google accounts (no code changes):
+```bash
+# Remove public access
+gcloud run services remove-iam-policy-binding rays-etf-app \
+  --region asia-east1 --member="allUsers" --role="roles/run.invoker"
+
+# Grant access to a teammate
+gcloud run services add-iam-policy-binding rays-etf-app \
+  --region asia-east1 \
+  --member="user:teammate@company.com" \
+  --role="roles/run.invoker"
+```
 7. **Auth** — use Cloud Run's built-in IAP (Identity-Aware Proxy) to restrict to team
    Google accounts — no code changes needed, toggle in Console
 
@@ -211,8 +225,12 @@ file-system persistence complexity and makes the scheduler stateless.
 - [x] `utils/data.py` resolves all CSV paths via `_data()` helper
 - [x] `data_collection.py` resolves data dirs via `_data()`, config files via `_app()`
 - [x] `scheduler.py` uses UTC (`datetime.now(timezone.utc)`), log written to `DATA_ROOT`
-- [x] `Dockerfile` built, sets `DATA_ROOT=/data`, exposes port 8501
-- [x] `render.yaml` defines web service + cron job sharing a 1 GB persistent disk
-- [x] No hardcoded secrets or local absolute paths in app code (`docs/` scripts are local-only tools)
-- [ ] Run `python data_collection.py` on Render after first deploy to seed the disk with data
-- [ ] (Optional) Add `st.secrets`-based password in `app.py` if team access needs gating
+- [x] `Dockerfile` updated for GCS FUSE (gcsfuse installed, gen2, port 8080)
+- [x] `docker-entrypoint.sh` mounts GCS bucket at `/data` then starts Streamlit
+- [x] `gcp-deploy.sh` scripted end-to-end: bucket → image → app → job → scheduler
+- [x] `gcsfs` added to `requirements.txt` as local dev fallback
+- [x] No hardcoded secrets or local absolute paths in app code
+- [ ] Create GCP project at console.cloud.google.com and attach billing account
+- [ ] Set `PROJECT_ID` and `BUCKET_NAME` in `gcp-deploy.sh` then run it
+- [ ] Data seeded automatically by script (Step 8 runs collector on first deploy)
+- [ ] (Optional) Remove `--allow-unauthenticated` and add per-user IAP bindings for team auth

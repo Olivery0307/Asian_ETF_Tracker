@@ -35,7 +35,9 @@ def render_summary_page(config, start_date, end_date, market_name):
 
     industry_df, bench_series, rel_df = get_industry_momentum(config, end_date)
 
-    if not industry_df.empty:
+    if industry_df.empty:
+        st.info("No data available for this market yet. Run the data collector to populate it.")
+    else:
         display_df = rel_df if momentum_mode == "Relative to Benchmark" else industry_df
 
         # Sort rows by 21d column (best recent momentum at top)
@@ -99,8 +101,6 @@ def render_summary_page(config, start_date, end_date, market_name):
             ),
         )
         st.plotly_chart(fig_heat, width='stretch')
-    else:
-        st.info("Not enough data to compute momentum windows.")
 
     st.markdown("---")
 
@@ -160,13 +160,26 @@ def render_summary_page(config, start_date, end_date, market_name):
         col1, col2 = st.columns([1, 1])
         with col1:
             st.markdown("**Industry Comparison Table**")
+            def _color_outperf(val, vmin, vmax):
+                if vmax == vmin:
+                    t = 0.5
+                else:
+                    t = (val - vmin) / (vmax - vmin)
+                # RdYlGn: red(0) → yellow(0.5) → green(1)
+                if t < 0.5:
+                    r, g = 255, int(255 * t * 2)
+                else:
+                    r, g = int(255 * (1 - t) * 2), 255
+                return f'background-color: rgba({r},{g},0,0.3)'
+
+            vmin = industry_df['Outperformance'].min()
+            vmax = industry_df['Outperformance'].max()
             st.dataframe(
                 industry_df.style.format({
                     'Average Return': '{:.2%}', 'Outperformance': '{:.2%}'
-                }).background_gradient(
-                    subset=['Outperformance'], cmap='RdYlGn',
-                    vmin=industry_df['Outperformance'].min(),
-                    vmax=industry_df['Outperformance'].max(),
+                }).map(
+                    lambda v: _color_outperf(v, vmin, vmax),
+                    subset=['Outperformance'],
                 ),
                 hide_index=True, width='stretch',
             )

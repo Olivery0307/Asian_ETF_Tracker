@@ -221,6 +221,13 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
     bench_full = load_csv_data(bench_path, etf_code=bench_code)
 
     end_ts = pd.Timestamp(end_date)
+    col_labels = [f"{w}d" for w in windows] + ['YTD']
+
+    # No benchmark data at all — return all-NaN result gracefully
+    if bench_full is None or bench_full.empty:
+        bench_series = pd.Series({c: float('nan') for c in col_labels})
+        empty = pd.DataFrame(float('nan'), index=[], columns=col_labels)
+        return empty, bench_series, empty
 
     # Compute benchmark returns for each window
     bench_rets = {}
@@ -237,7 +244,6 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
     b_ytd = bench_full[(bench_full.index >= ytd_start) & (bench_full.index <= end_ts)]
     bench_rets['YTD'] = (b_ytd['Close'].iloc[-1] / b_ytd['Close'].iloc[0]) - 1 if len(b_ytd) >= 2 else float('nan')
 
-    col_labels = [f"{w}d" for w in windows] + ['YTD']
     bench_series = pd.Series(bench_rets, index=col_labels)
 
     industry_rows = {}

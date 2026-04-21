@@ -21,6 +21,11 @@ schedule==1.2.2
 # ── PDF reports ──────────────────────────────────────────────────────────────
 reportlab==4.4.10
 
+# ── Cloud storage (GCP deployment) ───────────────────────────────────────────
+# gcsfs is unused when gcsfuse FUSE-mounts the bucket, but kept as a fallback
+# for local dev against GCS without FUSE support (e.g. macOS)
+gcsfs==2024.10.0
+
 # ── Indirect but required ────────────────────────────────────────────────────
 requests==2.32.5
 lxml==6.0.2
