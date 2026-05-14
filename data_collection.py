@@ -28,6 +28,7 @@ CONFIG_FILES = [
     "a_share_etf_config.json",
     "tw_etf_config.json",
     "sk_etf_config.json",
+    "us_etf_config.json",
 ]
 EMERGING_CONFIG_FILE = "a_share_etf_emerging.json"
 EMERGING_DATA_ROOT = _data("data_ashare")
@@ -153,6 +154,10 @@ def get_yfinance_symbol(code):
     if code_str == "HSI":     return "^HSI"
     if code_str == "000300":  return "000300.SS"  # CSI 300
 
+    # US: purely alphabetic tickers (SPY, XLK, XLF, etc.)
+    if code_str.isalpha():
+        return code_str
+
     # A-Share: 6-digit codes
     if len(code_str) == 6:
         if code_str.startswith(('5', '6')):
@@ -168,11 +173,12 @@ def get_yfinance_symbol(code):
 
 
 def _market_of(code_str, yf_symbol):
-    """Return 'hk', 'cn', 'tw', 'sk', or 'other' for a given symbol."""
+    """Return 'hk', 'cn', 'tw', 'sk', 'us', or 'other' for a given symbol."""
     if yf_symbol.endswith('.TW'):  return 'tw'
     if yf_symbol.endswith('.KS'):  return 'sk'
     if yf_symbol.endswith('.SS') or yf_symbol.endswith('.SZ'): return 'cn'
     if yf_symbol.endswith('.HK') or yf_symbol == '^HSI':       return 'hk'
+    if yf_symbol.isalpha():                                     return 'us'
     return 'other'
 
 def fetch_with_akshare_hk(symbol):
@@ -363,6 +369,7 @@ def run_collection(use_dynamic_dates=True):
             'cn_index': 'CNY',
             'tw_index': 'TWD',
             'sk_index': 'KRW',
+            'us_index': 'USD',
         }.get(bench_market, 'HKD')
         fetch_ticker(
             config['benchmark']['code'],

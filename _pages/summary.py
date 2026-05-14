@@ -12,6 +12,7 @@ from utils.data import (
     get_industry_avg_returns,
     get_industry_momentum,
     get_industry_volume_series,
+    get_industry_turnover_comparison,
 )
 
 
@@ -104,6 +105,57 @@ def render_summary_page(config, start_date, end_date, market_name):
 
     st.markdown("---")
 
+    # ── Section 1: Industry Average Performance ───────────────────────────────
+    st.subheader("🏭 Industry Average Performance")
+    industry_data, _ = get_industry_avg_returns(config, start_date, end_date)
+
+    if industry_data:
+        industry_df = pd.DataFrame(industry_data).sort_values('Average Return', ascending=False)
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            st.markdown("**Industry Comparison Table**")
+            vmin = industry_df['Average Return'].min()
+            vmax = industry_df['Average Return'].max()
+
+            def _color_return(val):
+                if vmax == vmin:
+                    t = 0.5
+                else:
+                    t = (val - vmin) / (vmax - vmin)
+                if t < 0.5:
+                    r, g = 255, int(255 * t * 2)
+                else:
+                    r, g = int(255 * (1 - t) * 2), 255
+                return f'background-color: rgba({r},{g},0,0.3)'
+
+            st.dataframe(
+                industry_df[['Industry', 'ETF', 'Average Return']].style.format({
+                    'Average Return': '{:.2%}',
+                }).map(_color_return, subset=['Average Return']),
+                hide_index=True, width='stretch',
+            )
+        with col2:
+            st.markdown("**Industry Returns**")
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=industry_df['Average Return'], y=industry_df['Industry'],
+                orientation='h',
+                marker=dict(color=industry_df['Average Return'],
+                            colorscale='RdYlGn', showscale=False),
+                text=industry_df['Average Return'].apply(lambda x: f'{x:.2%}'),
+                textposition='auto',
+            ))
+            fig.update_layout(
+                xaxis_title="Average Return", xaxis_tickformat='.1%',
+                height=400, margin=dict(l=200, r=20, t=20, b=40),
+                showlegend=False, yaxis={'categoryorder': 'total ascending'},
+            )
+            st.plotly_chart(fig, width='stretch')
+    else:
+        st.info("No industry data available.")
+
+    st.markdown("---")
+
     all_etfs, bench_return = get_all_etf_returns(config, start_date, end_date)
 
     if all_etfs is None:
@@ -113,7 +165,7 @@ def render_summary_page(config, start_date, end_date, market_name):
         st.warning("No ETF data available for the selected date range.")
         return
 
-    # ── Section 1: Top 10 / Bottom 10 ────────────────────────────────────────
+    # ── Section 2: Top 10 / Bottom 10 ────────────────────────────────────────
     sorted_etfs = sorted(all_etfs, key=lambda x: x['Return'], reverse=True)
 
     def _render_etf_block(etfs, title, color_scale):
@@ -123,24 +175,24 @@ def render_summary_page(config, start_date, end_date, market_name):
         with col1:
             st.markdown("**Performance Table**")
             st.dataframe(
-                df[['Code', 'Name', 'Industry', 'Return', 'Outperformance']].style.format({
-                    'Return': '{:.2%}', 'Outperformance': '{:.2%}'
+                df[['Code', 'Name', 'Industry', 'Return']].style.format({
+                    'Return': '{:.2%}',
                 }),
                 hide_index=True, width='stretch',
             )
         with col2:
-            st.markdown("**Outperformance vs Benchmark**")
+            st.markdown("**Absolute Return**")
             fig = go.Figure()
             fig.add_trace(go.Bar(
-                x=df['Outperformance'],
+                x=df['Return'],
                 y=[f"{row['Code']}<br>{row['Industry']}" for _, row in df.iterrows()],
                 orientation='h',
-                marker=dict(color=df['Outperformance'], colorscale=color_scale, showscale=False),
-                text=df['Outperformance'].apply(lambda x: f'{x:.2%}'),
+                marker=dict(color=df['Return'], colorscale=color_scale, showscale=False),
+                text=df['Return'].apply(lambda x: f'{x:.2%}'),
                 textposition='auto',
             ))
             fig.update_layout(
-                xaxis_title="Outperformance", xaxis_tickformat='.1%',
+                xaxis_title="Return", xaxis_tickformat='.1%',
                 height=400, margin=dict(l=150, r=20, t=20, b=40),
                 yaxis={'categoryorder': 'total ascending'},
             )
@@ -151,67 +203,8 @@ def render_summary_page(config, start_date, end_date, market_name):
     _render_etf_block(sorted_etfs[-10:], "📉 Bottom 10 Performing ETFs", 'RdYlGn_r')
     st.markdown("---")
 
-    # ── Section 2: Industry Average Performance ───────────────────────────────
-    st.subheader("🏭 Industry Average Performance")
-    industry_data, _ = get_industry_avg_returns(config, start_date, end_date)
-
-    if industry_data:
-        industry_df = pd.DataFrame(industry_data).sort_values('Average Return', ascending=False)
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            st.markdown("**Industry Comparison Table**")
-            def _color_outperf(val, vmin, vmax):
-                if vmax == vmin:
-                    t = 0.5
-                else:
-                    t = (val - vmin) / (vmax - vmin)
-                # RdYlGn: red(0) → yellow(0.5) → green(1)
-                if t < 0.5:
-                    r, g = 255, int(255 * t * 2)
-                else:
-                    r, g = int(255 * (1 - t) * 2), 255
-                return f'background-color: rgba({r},{g},0,0.3)'
-
-            vmin = industry_df['Outperformance'].min()
-            vmax = industry_df['Outperformance'].max()
-            st.dataframe(
-                industry_df.style.format({
-                    'Average Return': '{:.2%}', 'Outperformance': '{:.2%}'
-                }).map(
-                    lambda v: _color_outperf(v, vmin, vmax),
-                    subset=['Outperformance'],
-                ),
-                hide_index=True, width='stretch',
-            )
-        with col2:
-            st.markdown("**Industry Returns Comparison**")
-            fig = go.Figure()
-            fig.add_trace(go.Bar(
-                x=industry_df['Average Return'], y=industry_df['Industry'],
-                orientation='h', name='Industry Avg',
-                marker=dict(color=industry_df['Average Return'],
-                            colorscale='RdYlGn', showscale=False),
-                text=industry_df['Average Return'].apply(lambda x: f'{x:.2%}'),
-                textposition='auto',
-            ))
-            fig.add_vline(
-                x=bench_return, line_dash="dash", line_color="black",
-                annotation_text=f"Benchmark: {bench_return:.2%}",
-                annotation_position="top",
-            )
-            fig.update_layout(
-                xaxis_title="Average Return", xaxis_tickformat='.1%',
-                height=400, margin=dict(l=200, r=20, t=40, b=40),
-                showlegend=False, yaxis={'categoryorder': 'total ascending'},
-            )
-            st.plotly_chart(fig, width='stretch')
-    else:
-        st.info("No industry data available.")
-
-    st.markdown("---")
-
-    # ── Section 3: Trading Volume by Industry ─────────────────────────────────
-    st.subheader("📊 Trading Volume by Industry")
+    # ── Section 3: Turnover by Industry ──────────────────────────────────────
+    st.subheader("📊 Turnover by Industry")
     vol_series = get_industry_volume_series(config, start_date, end_date)
 
     if vol_series:
@@ -225,24 +218,36 @@ def render_summary_page(config, start_date, end_date, market_name):
         fig_vol.update_layout(
             hovermode="x unified", height=400,
             margin=dict(l=0, r=0, t=30, b=0),
-            yaxis_title="Total Volume",
+            yaxis_title="Daily Turnover",
             legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),
         )
         st.plotly_chart(fig_vol, width='stretch')
 
-        st.markdown("**Total Volume per Industry (selected period)**")
-        totals = dict(sorted({ind: s.sum() for ind, s in vol_series.items()}.items(),
-                              key=lambda x: x[1]))
-        fig_bar = go.Figure(go.Bar(
-            x=list(totals.values()), y=list(totals.keys()), orientation='h',
-            text=[f"{v:,.0f}" for v in totals.values()], textposition='outside',
-            marker_color='steelblue',
-        ))
-        fig_bar.update_layout(
-            height=max(300, len(totals) * 30),
-            margin=dict(l=0, r=80, t=20, b=0),
-            xaxis_title="Total Volume",
-        )
-        st.plotly_chart(fig_bar, width='stretch')
+        st.markdown("**1-Month vs 3-Month Turnover by Industry**")
+        turnover_cmp = get_industry_turnover_comparison(config, end_date)
+        if turnover_cmp:
+            industries = list(turnover_cmp.keys())
+            t1m = [turnover_cmp[ind]['1M'] for ind in industries]
+            t3m = [turnover_cmp[ind]['3M'] for ind in industries]
+            fig_cmp = go.Figure()
+            fig_cmp.add_trace(go.Bar(
+                name='1-Month', x=industries, y=t1m,
+                marker_color='steelblue',
+                text=[f"{v:,.0f}" for v in t1m], textposition='outside',
+            ))
+            fig_cmp.add_trace(go.Bar(
+                name='3-Month Avg/Month', x=industries, y=t3m,
+                marker_color='lightcoral',
+                text=[f"{v:,.0f}" for v in t3m], textposition='outside',
+            ))
+            fig_cmp.update_layout(
+                barmode='group',
+                height=max(350, len(industries) * 25),
+                margin=dict(l=0, r=0, t=20, b=80),
+                yaxis_title="Turnover",
+                xaxis_tickangle=-30,
+                legend=dict(yanchor="top", y=0.99, xanchor="right", x=0.99),
+            )
+            st.plotly_chart(fig_cmp, width='stretch')
     else:
-        st.info("No volume data available.")
+        st.info("No turnover data available.")

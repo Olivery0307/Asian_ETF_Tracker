@@ -22,6 +22,7 @@ CONFIG_FILES = {
     "A-Share":     "a_share_etf_config.json",
     "Taiwan":      "tw_etf_config.json",
     "South Korea": "sk_etf_config.json",
+    "US":          "us_etf_config.json",
 }
 EMERGING_CONFIG_FILE = "a_share_etf_emerging.json"
 EMERGING_DATA_ROOT   = _data("data_ashare")

@@ -12,23 +12,8 @@
     "industries": {
         "biotech_healthcare": [
             {
-                "code": "02820",
-                "name": "Global X China Biotech ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09820",
-                "name": "Global X China Biotech ETF",
-                "currency": "USD"
-            },
-            {
                 "code": "03069",
                 "name": "ChinaAMC HS Biotech ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03174",
-                "name": "CSOP China Healthcare Disruption Index ETF",
                 "currency": "HKD"
             }
         ],
@@ -37,150 +22,20 @@
                 "code": "02807",
                 "name": "Global X China Robotics and AI ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "09807",
-                "name": "Global X China Robotics and AI ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "02826",
-                "name": "Global X China Cloud Computing ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09826",
-                "name": "Global X China Cloud Computing ETF",
-                "currency": "USD"
             }
         ],
         "consumer_e_commerce": [
             {
-                "code": "02806",
-                "name": "Global X China Consumer Brand ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09806",
-                "name": "Global X China Consumer Brand ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03167",
-                "name": "ICBC CSOP S&P New China Sectors ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83167",
-                "name": "ICBC CSOP S&P New China Sectors ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "09167",
-                "name": "ICBC CSOP S&P New China Sectors ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03182",
-                "name": "W.I.S.E-Nasdaq Overseas China New Econ Co Top 50 Idx Tracker",
-                "currency": "HKD"
-            },
-            {
                 "code": "03189",
                 "name": "E Fund (HK) CSI Liquor Index ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "83189",
-                "name": "E Fund (HK) CSI Liquor Index ETF",
-                "currency": "RMB"
             }
         ],
         "esg_clean_energy": [
             {
-                "code": "02809",
-                "name": "Global X China Clean Energy ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09809",
-                "name": "Global X China Clean Energy ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03029",
-                "name": "Global X Hang Seng ESG ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03038",
-                "name": "Hang Seng Stock Connect China A Low Carbon Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83038",
-                "name": "Hang Seng Stock Connect China A Low Carbon Index ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "03039",
-                "name": "E Fund (HK) HSI ESG Enhanced Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03059",
-                "name": "Global X Bloomberg MSCI Asia ex Japan Green Bond ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83059",
-                "name": "Global X Bloomberg MSCI Asia ex Japan Green Bond ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "03108",
-                "name": "Harvest CSI 300 ESG Leaders Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83108",
-                "name": "Harvest CSI 300 ESG Leaders Index ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "03129",
-                "name": "BOCHK Greater Bay Area Climate Transition ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83129",
-                "name": "BOCHK Greater Bay Area Climate Transition ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "03134",
-                "name": "CSOP Huatai-PineBridge CSI Photovoltaic Industry ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03136",
-                "name": "HSI ESG Enhanced Select Index ETF",
-                "currency": "HKD"
-            },
-            {
                 "code": "03403",
                 "name": "ChinaAMC HSI ESG ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "83403",
-                "name": "ChinaAMC HSI ESG ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "09403",
-                "name": "ChinaAMC HSI ESG ETF",
-                "currency": "USD"
             }
         ],
         "internet_communications": [
@@ -188,21 +43,6 @@
                 "code": "02812",
                 "name": "Samsung CSI China Dragon Internet ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "09812",
-                "name": "Samsung CSI China Dragon Internet ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03072",
-                "name": "Nikko AM Global Internet ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09072",
-                "name": "Nikko AM Global Internet ETF",
-                "currency": "USD"
             }
         ],
         "real_estates": [
@@ -210,159 +50,19 @@
                 "code": "03187",
                 "name": "Samsung S&P High Dividend APAC ex NZ REITs ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "09187",
-                "name": "Samsung S&P High Dividend APAC ex NZ REITs ETF",
-                "currency": "USD"
             }
         ],
         "semiconductor": [
             {
-                "code": "03076",
-                "name": "Fubon ICE FactSet Taiwan Core Semiconductor Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03119",
-                "name": "Global X Asia Semiconductor ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03132",
-                "name": "Samsung Bloomberg Global Semiconductor ETF",
-                "currency": "HKD"
-            },
-            {
                 "code": "03191",
                 "name": "Global X China Semiconductor ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "09191",
-                "name": "Global X China Semiconductor ETF",
-                "currency": "USD"
             }
         ],
         "technology_innovations": [
             {
-                "code": "02814",
-                "name": "Samsung NYSE FANG+ ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09814",
-                "name": "Samsung NYSE FANG+ ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "02832",
-                "name": "Bosera STAR 50 Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "82832",
-                "name": "Bosera STAR 50 Index ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "02837",
-                "name": "Global X Hang Seng TECH ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03032",
-                "name": "Hang Seng TECH Index ETF",
-                "currency": "HKD"
-            },
-            {
                 "code": "03033",
                 "name": "CSOP Hang Seng TECH Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03056",
-                "name": "Pando Innovation ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03067",
-                "name": "iShares Hang Seng TECH ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09067",
-                "name": "iShares Hang Seng TECH ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03088",
-                "name": "ChinaAMC Hang Seng TECH Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09088",
-                "name": "ChinaAMC Hang Seng TECH Index ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03109",
-                "name": "CSOP STAR 50 Index ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03112",
-                "name": "Pando Blockchain ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03151",
-                "name": "Premia China STAR50 ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "83151",
-                "name": "Premia China STAR50 ETF",
-                "currency": "RMB"
-            },
-            {
-                "code": "09151",
-                "name": "Premia China STAR50 ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03171",
-                "name": "Samsung Blockchain Technologies ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03172",
-                "name": "Samsung Asia Pacific ex NZ Metaverse Theme ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03173",
-                "name": "Premia CSI Caixin China New Economy ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09173",
-                "name": "Premia CSI Caixin China New Economy ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03181",
-                "name": "Premia Asia Innovative Technology ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "09181",
-                "name": "Premia Asia Innovative Technology ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03185",
-                "name": "Global X FinTech ETF",
                 "currency": "HKD"
             }
         ],
@@ -371,32 +71,12 @@
                 "code": "02845",
                 "name": "Global X China Electric Vehicle and Battery ETF",
                 "currency": "HKD"
-            },
-            {
-                "code": "09845",
-                "name": "Global X China Electric Vehicle and Battery ETF",
-                "currency": "USD"
-            },
-            {
-                "code": "03139",
-                "name": "Global X EV and Humanoid Robot Active ETF",
-                "currency": "HKD"
             }
         ],
         "virtual_assets": [
             {
                 "code": "03066",
                 "name": "CSOP Bitcoin Futures ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03068",
-                "name": "CSOP Ether Futures ETF",
-                "currency": "HKD"
-            },
-            {
-                "code": "03135",
-                "name": "Samsung Bitcoin Futures Active ETF",
                 "currency": "HKD"
             }
         ]

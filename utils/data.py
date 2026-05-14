@@ -117,6 +117,7 @@ def get_data_for_industry(industry_key, config, selected_currencies, start_date,
 
 # ── Summary page ──────────────────────────────────────────────────────────────
 
+
 def get_all_etf_returns(config, start_date, end_date):
     """Return (list_of_etf_dicts, bench_return) across all industries."""
     root_dir   = _data(config['settings']['data_root_dir'])
@@ -185,23 +186,24 @@ def get_industry_avg_returns(config, start_date, end_date):
 
     for industry_key, etf_list in config['industries'].items():
         industry_path = os.path.join(root_dir, industry_key)
-        rets = []
-        for etf in etf_list:
-            code = etf['code']
-            df   = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
-            if df is None or df.empty or not has_sufficient_data(df):
-                continue
-            df = df[(df.index >= pd.Timestamp(start_date)) & (df.index <= pd.Timestamp(end_date))]
-            if not df.empty:
-                rets.append((df['Close'].iloc[-1] / df['Close'].iloc[0]) - 1)
-        if rets:
-            avg = sum(rets) / len(rets)
-            industry_returns.append({
-                'Industry':        industry_key.replace('_', ' ').title(),
-                'Average Return':  avg,
-                'Outperformance':  avg - bench_return,
-                'ETF Count':       len(rets),
-            })
+        etf = etf_list[0] if etf_list else None
+        if etf is None:
+            continue
+        code = etf['code']
+        df   = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
+        if df is None or df.empty or not has_sufficient_data(df):
+            continue
+        df = df[(df.index >= pd.Timestamp(start_date)) & (df.index <= pd.Timestamp(end_date))]
+        if df.empty:
+            continue
+        ret = (df['Close'].iloc[-1] / df['Close'].iloc[0]) - 1
+        industry_returns.append({
+            'Industry':       industry_key.replace('_', ' ').title(),
+            'ETF':            f"{code} - {etf['name']}",
+            'Average Return': ret,
+            'Outperformance': ret - bench_return,
+            'ETF Count':      1,
+        })
 
     return industry_returns, bench_return
 
@@ -250,24 +252,18 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
     for industry_key, etf_list in config['industries'].items():
         industry_path = os.path.join(root_dir, industry_key)
         label = industry_key.replace('_', ' ').title()
+        etf = etf_list[0] if etf_list else None
+        if etf is None:
+            continue
+        code = etf['code']
+        full_df = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
+        if full_df is None or full_df.empty or not has_sufficient_data(full_df):
+            continue
         row = {}
         for col in col_labels:
-            if col == 'YTD':
-                win_start = ytd_start
-            else:
-                w = int(col[:-1])
-                win_start = end_ts - pd.tseries.offsets.BDay(w)
-
-            rets = []
-            for etf in etf_list:
-                code = etf['code']
-                df = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
-                if df is None or df.empty or not has_sufficient_data(df):
-                    continue
-                df = df[(df.index >= win_start) & (df.index <= end_ts)]
-                if len(df) >= 2:
-                    rets.append((df['Close'].iloc[-1] / df['Close'].iloc[0]) - 1)
-            row[col] = sum(rets) / len(rets) if rets else float('nan')
+            win_start = ytd_start if col == 'YTD' else end_ts - pd.tseries.offsets.BDay(int(col[:-1]))
+            df = full_df[(full_df.index >= win_start) & (full_df.index <= end_ts)]
+            row[col] = (df['Close'].iloc[-1] / df['Close'].iloc[0]) - 1 if len(df) >= 2 else float('nan')
         industry_rows[label] = row
 
     industry_df = pd.DataFrame(industry_rows).T  # rows=industries, cols=windows
@@ -278,24 +274,55 @@ def get_industry_momentum(config, end_date, windows=(5, 21, 63)):
 
 
 def get_industry_volume_series(config, start_date, end_date):
-    """Return {industry_label: pd.Series(daily total volume)}."""
+    """Return {industry_label: pd.Series(daily turnover = volume × close)}."""
     root_dir = _data(config['settings']['data_root_dir'])
     result   = {}
     for industry_key, etf_list in config['industries'].items():
         industry_path = os.path.join(root_dir, industry_key)
-        series_list   = []
-        for etf in etf_list:
-            code = etf['code']
-            df   = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
-            if df is None or df.empty or not has_sufficient_data(df):
-                continue
-            df = df[(df.index >= pd.Timestamp(start_date)) & (df.index <= pd.Timestamp(end_date))]
-            if not df.empty and 'Volume' in df.columns:
-                series_list.append(df['Volume'])
-        if series_list:
-            result[industry_key.replace('_', ' ').title()] = (
-                pd.concat(series_list, axis=1).sum(axis=1)
-            )
+        etf = etf_list[0] if etf_list else None
+        if etf is None:
+            continue
+        code = etf['code']
+        df   = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
+        if df is None or df.empty or not has_sufficient_data(df):
+            continue
+        df = df[(df.index >= pd.Timestamp(start_date)) & (df.index <= pd.Timestamp(end_date))]
+        if not df.empty and 'Volume' in df.columns and 'Close' in df.columns:
+            result[industry_key.replace('_', ' ').title()] = df['Volume'] * df['Close']
+    return result
+
+
+def get_industry_turnover_comparison(config, end_date):
+    """
+    Return {industry_label: {'1M': total_turnover_1m, '3M': monthly_avg_turnover_3m}}
+    for a trailing 1-month and 3-month window ending at end_date.
+    3M value is normalised to a monthly average so it's comparable to the 1M figure.
+    """
+    root_dir = _data(config['settings']['data_root_dir'])
+    end_ts   = pd.Timestamp(end_date)
+    start_1m = end_ts - pd.tseries.offsets.BDay(21)
+    start_3m = end_ts - pd.tseries.offsets.BDay(63)
+
+    result = {}
+    for industry_key, etf_list in config['industries'].items():
+        industry_path = os.path.join(root_dir, industry_key)
+        etf = etf_list[0] if etf_list else None
+        if etf is None:
+            continue
+        code = etf['code']
+        df   = load_csv_data(os.path.join(industry_path, f"{code}.csv"), etf_code=code)
+        if df is None or df.empty or not has_sufficient_data(df):
+            continue
+        df = df[(df.index >= start_3m) & (df.index <= end_ts)]
+        if df.empty or 'Volume' not in df.columns or 'Close' not in df.columns:
+            continue
+
+        daily = df['Volume'] * df['Close']
+        t1m = daily[daily.index >= start_1m].sum()
+        t3m_monthly_avg = daily.sum() / 3.0
+
+        result[industry_key.replace('_', ' ').title()] = {'1M': t1m, '3M': t3m_monthly_avg}
+
     return result
 
 

@@ -42,3 +42,5 @@ secrets.json
 # ── GCP credentials (never commit these) ─────────────────────────────────────
 *-service-account*.json
 application_default_credentials.json
+
+.claude/
