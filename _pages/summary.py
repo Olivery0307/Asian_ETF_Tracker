@@ -20,7 +20,58 @@ def render_summary_page(config, start_date, end_date, market_name):
     st.header(f"📊 {market_name} Summary Dashboard")
     st.markdown(f"**Period:** {start_date} to {end_date}")
 
-    # ── Section 0: Momentum Heatmap ───────────────────────────────────────────
+    # ── Section 0: Industry Average Performance ──────────────────────────────
+    st.subheader("🏭 Industry Average Performance")
+    industry_data, _ = get_industry_avg_returns(config, start_date, end_date)
+
+    if industry_data:
+        industry_df = pd.DataFrame(industry_data).sort_values('Average Return', ascending=False)
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            st.markdown("**Industry Comparison Table**")
+            vmin = industry_df['Average Return'].min()
+            vmax = industry_df['Average Return'].max()
+
+            def _color_return(val):
+                if vmax == vmin:
+                    t = 0.5
+                else:
+                    t = (val - vmin) / (vmax - vmin)
+                if t < 0.5:
+                    r, g = 255, int(255 * t * 2)
+                else:
+                    r, g = int(255 * (1 - t) * 2), 255
+                return f'background-color: rgba({r},{g},0,0.3)'
+
+            st.dataframe(
+                industry_df[['Industry', 'ETF', 'Average Return']].style.format({
+                    'Average Return': '{:.2%}',
+                }).map(_color_return, subset=['Average Return']),
+                hide_index=True, width='stretch',
+            )
+        with col2:
+            st.markdown("**Industry Returns**")
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=industry_df['Average Return'], y=industry_df['Industry'],
+                orientation='h',
+                marker=dict(color=industry_df['Average Return'],
+                            colorscale='RdYlGn', showscale=False),
+                text=industry_df['Average Return'].apply(lambda x: f'{x:.2%}'),
+                textposition='auto',
+            ))
+            fig.update_layout(
+                xaxis_title="Average Return", xaxis_tickformat='.1%',
+                height=400, margin=dict(l=200, r=20, t=20, b=40),
+                showlegend=False, yaxis={'categoryorder': 'total ascending'},
+            )
+            st.plotly_chart(fig, width='stretch')
+    else:
+        st.info("No industry data available.")
+
+    st.markdown("---")
+
+    # ── Section 1: Momentum Heatmap ───────────────────────────────────────────
     st.subheader("🔥 Industry Momentum Heatmap")
     st.caption(
         "Rolling returns computed from the selected end date backwards. "
@@ -102,57 +153,6 @@ def render_summary_page(config, start_date, end_date, market_name):
             ),
         )
         st.plotly_chart(fig_heat, width='stretch')
-
-    st.markdown("---")
-
-    # ── Section 1: Industry Average Performance ───────────────────────────────
-    st.subheader("🏭 Industry Average Performance")
-    industry_data, _ = get_industry_avg_returns(config, start_date, end_date)
-
-    if industry_data:
-        industry_df = pd.DataFrame(industry_data).sort_values('Average Return', ascending=False)
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            st.markdown("**Industry Comparison Table**")
-            vmin = industry_df['Average Return'].min()
-            vmax = industry_df['Average Return'].max()
-
-            def _color_return(val):
-                if vmax == vmin:
-                    t = 0.5
-                else:
-                    t = (val - vmin) / (vmax - vmin)
-                if t < 0.5:
-                    r, g = 255, int(255 * t * 2)
-                else:
-                    r, g = int(255 * (1 - t) * 2), 255
-                return f'background-color: rgba({r},{g},0,0.3)'
-
-            st.dataframe(
-                industry_df[['Industry', 'ETF', 'Average Return']].style.format({
-                    'Average Return': '{:.2%}',
-                }).map(_color_return, subset=['Average Return']),
-                hide_index=True, width='stretch',
-            )
-        with col2:
-            st.markdown("**Industry Returns**")
-            fig = go.Figure()
-            fig.add_trace(go.Bar(
-                x=industry_df['Average Return'], y=industry_df['Industry'],
-                orientation='h',
-                marker=dict(color=industry_df['Average Return'],
-                            colorscale='RdYlGn', showscale=False),
-                text=industry_df['Average Return'].apply(lambda x: f'{x:.2%}'),
-                textposition='auto',
-            ))
-            fig.update_layout(
-                xaxis_title="Average Return", xaxis_tickformat='.1%',
-                height=400, margin=dict(l=200, r=20, t=20, b=40),
-                showlegend=False, yaxis={'categoryorder': 'total ascending'},
-            )
-            st.plotly_chart(fig, width='stretch')
-    else:
-        st.info("No industry data available.")
 
     st.markdown("---")
 
