@@ -7,6 +7,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
+from utils.charts import build_volume_chart
 from utils.data import (
     get_all_etf_returns,
     get_industry_avg_returns,
@@ -208,45 +209,43 @@ def render_summary_page(config, start_date, end_date, market_name):
     vol_series = get_industry_volume_series(config, start_date, end_date)
 
     if vol_series:
-        fig_vol = go.Figure()
-        for label, series in sorted(vol_series.items()):
-            fig_vol.add_trace(go.Scatter(
-                x=series.index, y=series.values, mode='lines', name=label,
-                stackgroup='one',
-                hovertemplate="%{fullData.name}: %{y:,.0f}<extra></extra>",
-            ))
-        fig_vol.update_layout(
-            hovermode="x unified", height=400,
-            margin=dict(l=0, r=0, t=30, b=0),
-            yaxis_title="Daily Turnover",
-            legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),
-        )
-        st.plotly_chart(fig_vol, width='stretch')
+        vol_df = pd.DataFrame({label: series for label, series in sorted(vol_series.items())})
+        st.plotly_chart(build_volume_chart(vol_df), width='stretch')
 
-        st.markdown("**1-Month vs 3-Month Turnover by Industry**")
+        st.markdown("**1-Month vs 3-Month Avg Turnover Ratio by Industry**")
         turnover_cmp = get_industry_turnover_comparison(config, end_date)
         if turnover_cmp:
             industries = list(turnover_cmp.keys())
             t1m = [turnover_cmp[ind]['1M'] for ind in industries]
             t3m = [turnover_cmp[ind]['3M'] for ind in industries]
+            # ratio: 1M relative to 3M avg-per-month; 1.0 = same as 3M avg
+            ratios = [
+                (v1 / v3 if v3 else float('nan'))
+                for v1, v3 in zip(t1m, t3m)
+            ]
+            colors = ['steelblue' if r >= 1 else 'lightcoral' for r in ratios]
             fig_cmp = go.Figure()
             fig_cmp.add_trace(go.Bar(
-                name='1-Month', x=industries, y=t1m,
-                marker_color='steelblue',
-                text=[f"{v:,.0f}" for v in t1m], textposition='outside',
+                x=industries,
+                y=ratios,
+                marker_color=colors,
+                text=[f"{r:.2f}x" if not (r != r) else 'N/A' for r in ratios],
+                textposition='outside',
             ))
-            fig_cmp.add_trace(go.Bar(
-                name='3-Month Avg/Month', x=industries, y=t3m,
-                marker_color='lightcoral',
-                text=[f"{v:,.0f}" for v in t3m], textposition='outside',
-            ))
+            fig_cmp.add_hline(
+                y=1.0,
+                line_dash='dash',
+                line_color='gray',
+                annotation_text='3M avg baseline',
+                annotation_position='top right',
+            )
             fig_cmp.update_layout(
-                barmode='group',
                 height=max(350, len(industries) * 25),
                 margin=dict(l=0, r=0, t=20, b=80),
-                yaxis_title="Turnover",
+                yaxis_title="1M / 3M Avg Ratio",
+                yaxis=dict(tickformat='.2f'),
                 xaxis_tickangle=-30,
-                legend=dict(yanchor="top", y=0.99, xanchor="right", x=0.99),
+                showlegend=False,
             )
             st.plotly_chart(fig_cmp, width='stretch')
     else:
